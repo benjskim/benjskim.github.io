@@ -17,10 +17,11 @@
 }
 
 .row {
-  height: 33%;
+  height: 33.3333%;
+  margin: 0 0 0 -100px;
 }
 
-.col-md-3, .col-sm-push-3 {
+.col-md-3 {
   background-color: yellow;
   position: relative;
   height: 100%;
