@@ -1,34 +1,69 @@
-.nav {
-  background-color: navy;
-  color: white;
-  height: 100%;
-  position: fixed;
-  z-index: 10;
+h1{
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+.menu {
+  font-size: 1.2em;
 }
 
 .container {
-  margin: 15px 15px;
+  position: fixed;
+  background-color: white;
+  color: rgb(51, 51, 51);
+  height: 100%;
+  width: 20%;
+  padding: 15px 25px 25px 25px;
+  z-index: 10;
 }
 
 .main-content {
-  width: 100%;
+  width: 80%;
   height: 100%;
   position: absolute; 
-
 }
 
 .row {
   height: 33.333%;
-  margin: 0 0 0 -100px;
+  margin: 0 0 0 0;
 }
 
-.col-md-3 {
-  background-color: yellow;
+.col-xs-3 {
   position: relative;
   height: 100%;
-  width: 25%;
-  border: 5px solid red;
+  width: 33.333%;
   display: inline-block; 
   text-align: right;
   z-index: 20;
+}
+
+.box-1 {
+  background: rgba(245, 10, 10, .6);
+}
+.box-2 {
+  background: rgba(144, 178, 71, .6);
+}
+.box-3 {
+  background: rgba(0, 63, 76, .75);
+}
+.box-4 {
+  background: rgba(240, 239, 136, .8);
+}
+.box-5 {
+  background: rgba(113, 71, 191, .9);
+}
+.box-6 {
+  background: rgba(150, 191, 72, .9);
+}
+.box-7 {
+  background: rgba(0, 43, 91, .9);
+}
+.box-8 {
+  background: rgba(240, 123, 0, .8);
+}
+.box-9 {
+  background: rgba(245, 10, 10, .35);
 }
