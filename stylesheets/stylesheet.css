@@ -6,6 +6,14 @@ h3 {
   font-size: 1.3em;
 }
 
+a {
+  color: #7c7ab3;
+}
+
+a:hover {
+  color: #3a3f9c;
+}
+
 img {
   width: 50%;
   height: 65%;
