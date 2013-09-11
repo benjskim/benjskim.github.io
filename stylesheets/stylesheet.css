@@ -1,3 +1,11 @@
+/**,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
 body {
   font-family: Helvetica Neue;
   font-size: 15px;
@@ -8,9 +16,82 @@ body {
 h1 {
   font-family: Open Sans;
   font-weight: 300;
-  font-size: 3em;
+  font-size: 2.75em;
   line-height: 1em;
+  margin-left: -4px;
 }
+
+/*Ben Kim Title CSS Animation*/
+/*.title1::before,
+.title1::after {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+  transition: transform 0.3s, opacity 0.2s;
+}
+
+.title2::before,
+.title2::after {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+  transition: transform 0.3s, opacity 0.2s;
+}
+
+.title1::before {
+  margin-right: 0px;
+  content: '{';
+  -webkit-transform: translateX(30px);
+  -moz-transform: translateX(30px);
+  transform: translateX(30px);
+}
+
+.title1::after {
+  margin-left: 0px;
+  content: 'en';
+  -webkit-transform: translateX(-30px);
+  -moz-transform: translateX(-30px);
+  transform: translateX(-30px);
+}
+
+.title2::before {
+  margin-right: 0px;
+  content: '';
+  -webkit-transform: translateX(30px);
+  -moz-transform: translateX(30px);
+  transform: translateX(30px);
+}
+
+.title2::after {
+  margin-left: 0px;
+  content: 'im}';
+  -webkit-transform: translateX(-30px);
+  -moz-transform: translateX(-30px);
+  transform: translateX(-30px);
+}
+
+.title1:hover::before,
+.title1:hover::after,
+.title1:focus::before,
+.title1:focus::after {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+.title2:hover::before,
+.title2:hover::after,
+.title2:focus::before,
+.title2:focus::after {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
+}*/
+/*End Title CSS Animation*/
 
 h3 {
   font-weight: 300;
@@ -33,6 +114,10 @@ a:hover {
   -webkit-transition-duration: 400ms, 400ms, 400ms;
   -moz-transition-property: color, background-color, padding-left;
   -moz-transition-duration: 400ms, 400ms, 400ms;
+  -ms-transition-property: color, background-color, padding-left;
+  -ms-transition-duration: 400ms, 400ms, 400ms;
+  -o-transition-property: color, background-color, padding-left;
+  -o-transition-duration: 400ms, 400ms, 400ms;
 }
 
 .pullright:hover {
@@ -63,7 +148,7 @@ img[class='nd'] {
   width: 17%;
   min-height: 525px;
   min-width: 100px;
-  padding: 1px 8px 0px 27.5px;
+  padding: 1px 5px 0px 27.5px;
   z-index: 30;
 }
 
