@@ -122,16 +122,16 @@ a:hover {
 
 .pullright:hover {
   background-color:#efefef;
-  color:#333;
+  color:#3a3f9c;
   padding-left:30px
 }
 
 img[class='nd'] {
   width: 45%;
-  height: 65%;
+  height: 70%;
   position: relative;
   left: -27.5%;
-  top: 18%; 
+  top: 15%; 
 }
 
 .container {
@@ -182,8 +182,8 @@ img[class='nd'] {
   text-align: right;
   float: left;
   height: 100%;
-  min-height: 175px;
-  min-width: 225px;
+  min-height: 200px;
+  min-width: 250px;
   width: 33.333%;
   z-index: 20;
 }
