@@ -25,16 +25,7 @@ $('.box-7').hoverIntent({
 });
 
 //Menu Modal
-$(".simple-modal").addEvent("click", function(){
-  var SM = new SimpleModal({"btn_ok":"Confirm button"});
-      SM.addButton("Action button", "btn primary", function(){
-        alert("Add your code");
-        this.hide();
-      });
-      SM.addButton("Cancel", "btn");
-      SM.show({
-        "model":"modalabout",
-        "title":"About",
-        "contents":"Your message..."
-      }); 
+$('.modalabout').click(function() {
+  $('.simple-modal').fadeToggle();
 });
+  

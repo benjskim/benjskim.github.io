@@ -63,6 +63,13 @@ nav {
   color:#3a3f9c;
   padding-left:30px
 }
+
+/*Modals*/
+.hidden-modal {
+  display: none;
+}
+
+
 /*Nav Menu CSS End*/
 
 footer {
