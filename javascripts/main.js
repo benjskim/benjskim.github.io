@@ -1,11 +1,13 @@
 // ND Logo Transition Effect
 
 function transitionIn() {
-  $('.nd').transition({
-    y: '-5px',
-    scale: .85
-  });
   $('.text7').fadeIn(1000);
+  $('.nd').transition({
+    y: '0',
+    scale: .85,
+    duration: 600
+  });
+  
 }
 
 function transitionOut() {
