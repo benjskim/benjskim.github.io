@@ -26,6 +26,16 @@ $('.box-7').hoverIntent({
 
 //Menu Modal
 $('.modalabout').click(function() {
-  $('.simple-modal').fadeToggle();
+  $('.simple-modal').fadeIn(400).transition({
+    x: '95%',
+    duration: 300
+  });
 });
-  
+
+$('.closebutton').click(function() {
+  $('.simple-modal').transition({
+    x: '-95%',
+    duration: 300
+  }).fadeOut(400);
+});
+    

@@ -61,14 +61,23 @@ nav {
 
 .pullright:hover {
   color:#3a3f9c;
-  padding-left:30px
+  padding-left:30px;
 }
 
 /*Modals*/
-.hidden-modal {
+.hidden {
   display: none;
 }
 
+.closebutton {
+  position: absolute;
+  font-size: 1.1em;
+  font-weight: 300;
+  top: 16px;  
+  right: 15px;
+  color: #999;
+  line-height: 10px;
+}
 
 /*Nav Menu CSS End*/
 
