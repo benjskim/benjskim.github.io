@@ -13,7 +13,8 @@ function transitionIn() {
 function transitionOut() {
   $('.nd').transition({
     y: '0px',
-    scale: 1
+    scale: 1,
+    duration: 600
   });  
   $('.text7').fadeOut(500);
 }
