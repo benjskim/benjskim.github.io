@@ -1,13 +1,11 @@
-// ND Logo Transition Effect
-
+//Box-7 ND Logo Transition Effect
 function transitionIn() {
-  $('.text7').fadeIn(1000);
   $('.nd').transition({
-    y: '0',
-    scale: .85,
-    duration: 600
+    y: '7.5px',
+    scale: .75,
+    duration: 500
   });
-  
+  $('.text7').fadeIn(750);
 }
 
 function transitionOut() {
@@ -23,7 +21,20 @@ $('.box-7').hoverIntent({
   over: transitionIn,
   timeout: 200,
   interval: 200,
-  out: transitionOut
+  // out: transitionOut
 });
 
-// End ND Logo Transition
+//Menu Modal
+$(".simple-modal").addEvent("click", function(){
+  var SM = new SimpleModal({"btn_ok":"Confirm button"});
+      SM.addButton("Action button", "btn primary", function(){
+        alert("Add your code");
+        this.hide();
+      });
+      SM.addButton("Cancel", "btn");
+      SM.show({
+        "model":"modalabout",
+        "title":"About",
+        "contents":"Your message..."
+      }); 
+});
