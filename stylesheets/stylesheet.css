@@ -1,3 +1,4 @@
+/* Main */
 body {
   font-family: 'Open Sans';
   font-size: 15px;
@@ -47,6 +48,7 @@ nav {
   float: left;
 }
 
+
 /* Nav Menu CSS Animation */
 .pullright {
   -webkit-transition-property: color, background-color, padding-left;
@@ -64,7 +66,8 @@ nav {
   padding-left:30px;
 }
 
-/*Modals*/
+
+/* Modals */
 .hidden {
   display: none;
 }
@@ -77,9 +80,11 @@ nav {
   right: 15px;
   color: #999;
   line-height: 10px;
+  z-index: 20;
 }
 
-/*Nav Menu CSS End*/
+
+/* Nav Menu CSS End */
 
 footer {
   font-family: 'Helvetica Neue';
@@ -118,6 +123,7 @@ footer {
   width: 33.333%;
   z-index: 10;
 }
+
 
 /* Individual Boxes */
 .box-1 {

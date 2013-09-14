@@ -1,7 +1,7 @@
 //Box-7 ND Logo Transition Effect
 function transitionIn() {
   $('.nd').transition({
-    y: '7.5px',
+    y: '5%',
     scale: .75,
     duration: 500
   });
@@ -26,7 +26,7 @@ $('.box-7').hoverIntent({
 
 //Menu Modal
 $('.modalabout').click(function() {
-  $('.simple-modal').fadeIn(400).transition({
+  $('.modal-about').fadeIn(400).transition({
     x: '95%',
     duration: 300
   });
@@ -35,7 +35,6 @@ $('.modalabout').click(function() {
 $('.closebutton').click(function() {
   $('.simple-modal').transition({
     x: '-95%',
-    duration: 300
+    duration: 500
   }).fadeOut(400);
-});
-    
+});  
