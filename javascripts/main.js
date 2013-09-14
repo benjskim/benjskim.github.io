@@ -26,6 +26,10 @@ $('.box-7').hoverIntent({
 
 //Menu Modal
 $('.modalabout').click(function() {
+  $('.simple-modal').transition({
+    x: '0%',
+    duration: 300
+  }).fadeOut(500);
   $('.modal-about').fadeIn(400).transition({
     x: '95%',
     duration: 300
@@ -40,6 +44,10 @@ $('.closebutton').click(function() {
 });  
 
 $('.modaltestimonials').click(function() {
+  $('.simple-modal').transition({
+    x: '0%',
+    duration: 300
+  }).fadeOut(500);
   $('.modal-testimonials').fadeIn(400).transition({
     x: '95%',
     duration: 300
