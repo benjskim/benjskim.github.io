@@ -36,12 +36,16 @@ $('.modalabout').click(function() {
   });
 });
 
-$('.closebutton').click(function() {
+$('.modalresume').click(function() {
   $('.simple-modal').transition({
     x: '0%',
     duration: 300
   }).fadeOut(500);
-});  
+  $('.modal-resume').fadeIn(400).transition({
+    x: '95%',
+    duration: 300
+  });
+});
 
 $('.modaltestimonials').click(function() {
   $('.simple-modal').transition({

@@ -62,8 +62,8 @@ nav {
 }
 
 .pullright:hover {
-  color:#3a3f9c;
-  padding-left:30px;
+  color: #3a3f9c;
+  padding-left: 25px;
 }
 
 
@@ -83,6 +83,16 @@ nav {
   z-index: 20;
 }
 
+.modal-resume {
+  width: 65%;
+  left: -42%;
+}
+
+iframe {
+  position: relative;
+  width: 100%;
+  height: 750px;
+}
 
 /* Nav Menu CSS End */
 
