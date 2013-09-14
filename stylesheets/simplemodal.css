@@ -3,16 +3,16 @@
   display: block;
   z-index: 20;
   top: 0;
-/* left: 20%;*/
+ left: 20%;
   width: 100%;
   height: 100%;
- /* background-color: rgba(45,45,45,1);
+  background-color: rgba(45,45,45,1);
   background-position: center center;
   background-repeat: no-repeat;
   background: -webkit-gradient(radial, center center, 0, center center, 460, from(#ffffff), to(#291a49));
   background: -webkit-radial-gradient(circle, #ffffff, #291a49);
   background: -moz-radial-gradient(circle, #ffffff, #291a49);
-  background: -ms-radial-gradient(circle, #ffffff, #291a49);*/
+  background: -ms-radial-gradient(circle, #ffffff, #291a49);
 }
 
 .simple-modal {
