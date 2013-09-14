@@ -29,6 +29,10 @@ a:hover {
   color: #3a3f9c;
 }
 
+.hidden {
+  display: none;
+}
+
 nav {
   background-image: url('../images/sos.png');
   position: fixed;
@@ -48,6 +52,17 @@ nav {
   float: left;
 }
 
+.modal-resume {
+  width: 65%;
+  left: -42.5%;
+
+}
+
+iframe {
+  position: relative;
+  width: 100%;
+  height: 750px;
+}
 
 /* Nav Menu CSS Animation */
 .pullright {
@@ -66,37 +81,19 @@ nav {
   padding-left: 25px;
 }
 
-
-/* Modals */
-.hidden {
-  display: none;
-}
-
-.closebutton {
+img[class='bio'] {
+  width: 25%;
+  height: 30%;
+  min-width: 150px;
+  min-height: 200px;
+  padding: 4px;
+  margin: 17px 15px 5px 3px;
+  border: 1px solid;
   position: absolute;
-  font-size: 1.1em;
-  font-weight: 300;
-  top: 16px;  
-  right: 15px;
-  color: #999;
-  line-height: 10px;
-  z-index: 20;
-}
-
-.modal-resume {
-  width: 65%;
-  left: -42.5%;
-  overflow: hidden;
-}
-
-iframe {
-  position: relative;
-  width: 100%;
-  height: 750px;
+  float: left;
 }
 
 /* Nav Menu CSS End */
-
 footer {
   font-family: 'Helvetica Neue';
   position: absolute;

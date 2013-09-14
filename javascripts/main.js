@@ -1,11 +1,11 @@
 //Box-7 ND Logo Transition Effect
 function transitionIn() {
   $('.nd').transition({
-    y: '5%',
     scale: .75,
+    y: '5%',
     duration: 500
   });
-  $('.text7').fadeIn(750);
+  $('.text7').delay(500).fadeIn(750);
 }
 
 function transitionOut() {
