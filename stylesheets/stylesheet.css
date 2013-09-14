@@ -86,6 +86,7 @@ nav {
 .modal-resume {
   width: 65%;
   left: -42%;
+  overflow: hidden;
 }
 
 iframe {

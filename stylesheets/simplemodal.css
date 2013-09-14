@@ -74,12 +74,11 @@
 
 .simple-modal .simple-modal-body {
   padding: 10px 30px;
-
   /* Extra style */
 }
 
 .simple-modal .simple-modal-body div.contents {
-  overflow: scroll;
+  overflow: auto;
 }
 
 .simple-modal .simple-modal-body p {
@@ -89,6 +88,7 @@
   color: rgb(51, 51, 51);
   line-height: 18px;
 }
+
 
 .simple-modal .simple-modal-body p img {
   display: block;
