@@ -31,7 +31,7 @@ $('.modalabout').click(function() {
     duration: 300
   }).fadeOut(500);
   $('.modal-about').fadeIn(400).transition({
-    x: '95%',
+    x: '94%',
     duration: 300
   });
 });
@@ -42,7 +42,7 @@ $('.modalresume').click(function() {
     duration: 300
   }).fadeOut(500);
   $('.modal-resume').fadeIn(400).transition({
-    x: '95%',
+    x: '94%',
     duration: 300
   });
 });
@@ -53,7 +53,7 @@ $('.modaltestimonials').click(function() {
     duration: 300
   }).fadeOut(500);
   $('.modal-testimonials').fadeIn(400).transition({
-    x: '95%',
+    x: '94%',
     duration: 300
   });
 });

@@ -81,8 +81,8 @@ iframe {
   padding-left: 25px;
 }
 
-img[class='bio'] {
-  width: 25%;
+/*img[class='bio'] {
+  width: 22.5%;
   height: 30%;
   min-width: 150px;
   min-height: 200px;
@@ -90,8 +90,9 @@ img[class='bio'] {
   margin: 17px 15px 5px 3px;
   border: 1px solid;
   position: absolute;
-  float: left;
-}
+  float: right;
+  display: block;
+}*/
 
 /* Nav Menu CSS End */
 footer {
