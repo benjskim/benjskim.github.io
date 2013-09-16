@@ -74,58 +74,7 @@ iframe {
   height: 750px;
 }
 
-/* Nav Menu CSS Animation */
-.pullright {
-  -webkit-transition-property: color, background-color, padding-left;
-  -webkit-transition-duration: 400ms, 400ms, 400ms;
-  -moz-transition-property: color, background-color, padding-left;
-  -moz-transition-duration: 400ms, 400ms, 400ms;
-  -ms-transition-property: color, background-color, padding-left;
-  -ms-transition-duration: 400ms, 400ms, 400ms;
-  -o-transition-property: color, background-color, padding-left;
-  -o-transition-duration: 400ms, 400ms, 400ms;
-}
 
-.pullright:hover {
-  color: #3a3f9c;
-  padding-left: 20px;
-}
-
-.menu a::before,
-.menu a::after {
-  display: inline-block;
-  opacity: 0;
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
-  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
-  transition: transform 0.3s, opacity 0.2s;
-}
-
-.menu a::before {
-  margin-right: 5px;
-  content: '<';
-  -webkit-transform: translateX(30px);
-  -moz-transform: translateX(30px);
-  transform: translateX(30px);
-}
-
-.menu a::after {
-  margin-left: 5px;
-  content: '/>';
-  -webkit-transform: translateX(-30px);
-  -moz-transform: translateX(-30px);
-  transform: translateX(-30px);
-}
-
-.menu a:hover::before,
-.menu a:hover::after,
-.menu a:focus::before,
-.menu a:focus::after {
-  opacity: 1;
-  -webkit-transform: translateX(0px);
-  -moz-transform: translateX(0px);
-  transform: translateX(0px);
-}
-/*End Title CSS Animation*/
 
 
 /* Nav Menu CSS End */
@@ -261,3 +210,56 @@ img[class='nd'] {
   height: 100%;
   background-color: rgba(0,0,0,0);
 }
+
+/* Nav Menu CSS Animation */
+.pullright {
+  -webkit-transition-property: color, background-color, padding-left;
+  -webkit-transition-duration: 400ms, 400ms, 400ms;
+  -moz-transition-property: color, background-color, padding-left;
+  -moz-transition-duration: 400ms, 400ms, 400ms;
+  -ms-transition-property: color, background-color, padding-left;
+  -ms-transition-duration: 400ms, 400ms, 400ms;
+  -o-transition-property: color, background-color, padding-left;
+  -o-transition-duration: 400ms, 400ms, 400ms;
+}
+
+.pullright:hover {
+  color: #3a3f9c;
+  padding-left: 20px;
+}
+
+.menu a::before,
+.menu a::after {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+  transition: transform 0.3s, opacity 0.2s;
+}
+
+.menu a::before {
+  margin-right: 5px;
+  content: '<';
+  -webkit-transform: translateX(30px);
+  -moz-transform: translateX(30px);
+  transform: translateX(30px);
+}
+
+.menu a::after {
+  margin-left: 5px;
+  content: '/>';
+  -webkit-transform: translateX(-30px);
+  -moz-transform: translateX(-30px);
+  transform: translateX(-30px);
+}
+
+.menu a:hover::before,
+.menu a:hover::after,
+.menu a:focus::before,
+.menu a:focus::after {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
+}
+/*End Title CSS Animation*/
