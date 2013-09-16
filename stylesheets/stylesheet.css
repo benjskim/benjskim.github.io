@@ -51,6 +51,39 @@ a:hover {
   display: none;
 }
 
+body > nav {
+  background-image: url('../images/sos.png');
+  position: fixed;
+  background-color: rgba(255, 255, 248, 1);
+  color: rgb(51, 51, 51);
+  height: 100%;
+  width: 18%;
+  min-height: 525px;
+  min-width: 160px;
+  padding: 0 0 0 15px;
+  z-index: 1000; 
+}
+
+.navbar {
+  padding-left: 5%;
+}
+
+.menu {
+  font-family: 'Helvetica Neue';
+  font-size: 1.2em;
+  margin-left: -8px;
+  float: left;
+}
+
+footer {
+  font-family: 'Helvetica Neue';
+  position: absolute;
+  font-size: .95em;
+  padding-right: 0;
+  bottom: 30px;
+  margin-left: 8px;
+}
+
 .container {
   width: 81%;
   height: 100%;
@@ -83,43 +116,6 @@ a:hover {
   width: 33.333%;
   z-index: 10;
 }
-
-
-body > nav {
-  background-image: url('../images/sos.png');
-  position: fixed;
-  background-color: rgba(255, 255, 248, 1);
-  color: rgb(51, 51, 51);
-  height: 100%;
-  width: 18%;
-  min-height: 525px;
-  min-width: 160px;
-  padding: 0 0 0 15px;
-  z-index: 1000; 
-}
-
-.menu {
-  font-family: 'Helvetica Neue';
-  font-size: 1.2em;
-  margin-left: -8px;
-  float: left;
-}
-
-iframe {
-  position: relative;
-  width: 100%;
-  height: 750px;
-}
-
-footer {
-  font-family: 'Helvetica Neue';
-  position: absolute;
-  font-size: .95em;
-  padding-right: 0;
-  bottom: 30px;
-  margin-left: 8px;
-}
-
 
 /* Individual Boxes */
 .box-1 {
