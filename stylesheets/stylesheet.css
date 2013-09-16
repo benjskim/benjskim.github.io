@@ -1,13 +1,12 @@
-/* Main */
-html {
+/*---------- 
+    Main 
+----------*/
+body {
    background: url(../images/skyline.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-body {
   font-family: 'Open Sans';
   font-size: 15px;
   font-weight: 300;
@@ -65,7 +64,7 @@ body > nav {
 }
 
 .navbar {
-  padding-left: 5%;
+  padding-left: 2.5%;
 }
 
 .menu {
@@ -117,7 +116,9 @@ footer {
   z-index: 10;
 }
 
-/* Individual Boxes */
+/*----------------- 
+  Individual Boxes 
+------------------*/
 .box-1 {
   background: rgba(245, 10, 10, 1);
 }
@@ -131,7 +132,7 @@ footer {
 }
 
 .box-4 {
-  background: rgba(240, 239, 136, .3);
+  background: rgba(240, 239, 136, 1);
 }
 
 .box-5 {
@@ -189,28 +190,12 @@ img[class='nd'] {
 }
 
 .box-9 {
-/*  background-image: url('../images/LA.png');*/
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.box-9:after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
   background-color: rgba(100,100,100,1);
 }
 
-/*.box-9:hover::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(10,100,10,1);
-}*/
-
-/* Nav Menu CSS Animation */
+/*------------------------
+  Nav Menu CSS Animation 
+------------------------*/
 .pullright {
   -webkit-transition-property: color, background-color, padding-left;
   -webkit-transition-duration: 400ms, 400ms, 400ms;
@@ -261,4 +246,3 @@ img[class='nd'] {
   -moz-transform: translateX(0px);
   transform: translateX(0px);
 }
-/*End Title CSS Animation*/

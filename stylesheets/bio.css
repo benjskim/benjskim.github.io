@@ -1,0 +1,13 @@
+.biocontainer {
+  position: absolute;
+  top: 40%;
+  left: 2.5%;
+  width: 30%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, .8);
+  border: 1px solid;
+}
+
+/* ----------------
+Make a div class for container headings, container body, etc
+------------------*/
