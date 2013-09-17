@@ -2,7 +2,7 @@
     Main 
 ----------*/
 body {
-   background: url(../images/skyline.jpg) no-repeat center center fixed; 
+  background: url(../images/skyline.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,6 +11,7 @@ body {
   font-size: 15px;
   font-weight: 300;
   margin: 0 0 0 0;
+  z-index: 10;
 }
 
 img[class='bio'] {

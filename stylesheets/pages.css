@@ -1,0 +1,42 @@
+/*----------
+  Bio Page
+----------*/
+.biocontainer {
+  position: absolute;
+  top: 40%;
+  left: 2.5%;
+  width: 30%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, .8);
+  border: 1px solid;
+}
+
+/*----------------
+  Notre Dame Page
+------------------*/
+
+.ndcontainer {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 30%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, .8);
+  border: 1px solid;
+}
+
+.ndbackground {
+  background: url(../images/NDGoldenDome.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  z-index: 100;
+  top: 5%;
+
+}
+
+/* ----------------
+Make a div class for container headings, container body, etc
+------------------*/
