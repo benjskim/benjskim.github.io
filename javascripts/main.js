@@ -1,26 +1,33 @@
 //---Background Scroll---//
 $(document).ready(function(){
+  
   var $window = $(window);
   $('body').each(function(){
     var $bgobj = $(this);
+
     $(window).scroll(function() {
-      var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+
+      var yPos   = -($window.scrollTop() / $bgobj.data('speed'));
       var coords = '50% '+ yPos + 'px';
+
       $bgobj.css({ backgroundPosition: coords });
       });
     });
-});
-
-$(document).ready(function(){
+  
   var $window = $(window);
   $('.ndbackground').each(function(){
     var $bgobj = $(this);
+
     $(window).scroll(function() {
-      var yPos = -($window.scrollTop() / $bgobj.data('speed'));
-      var coords = '50% '+ yPos + 'px';
+
+      var yPos   = -($window.scrollTop() / $bgobj.data('speed'));
+      var coords = '150% '+ yPos + 'px';
+
       $bgobj.css({ backgroundPosition: coords });
-      });
     });
+  });
+
+  $('#slider').leanSlider();
 });
 
 // $(window).scroll(function() {
@@ -38,10 +45,11 @@ $(document).ready(function(){
 //---Box-7 ND Logo Transition Effect---//
 function transitionIn() {
   $('.nd').transition({
-    scale: .75,
     y: '5%',
+    scale: .75,
     duration: 500
   });
+
   $('.text7').delay(500).fadeIn(750);
 }
 
@@ -51,6 +59,7 @@ function transitionOut() {
     scale: 1,
     duration: 600
   });  
+
   $('.text7').fadeOut(500);
 }
 
@@ -61,12 +70,18 @@ $('.box-7').hoverIntent({
   // out: transitionOut
 });
 
+//---Imageslider---//
+$(document).ready(function() {
+  $('#slider').leanSlider();
+})
+
 //Menu Modal
 $('.modalabout').click(function() {
   $('.simple-modal').transition({
-    x: '0%',
-    duration: 300
+    x:  '0%',
+    duration:  300
   }).fadeOut(500);
+
   $('.modal-about').fadeIn(400).transition({
     x: '93%',
     duration: 300
@@ -78,6 +93,7 @@ $('.modalresume').click(function() {
     x: '0%',
     duration: 300
   }).fadeOut(500);
+
   $('.modal-resume').fadeIn(400).transition({
     x: '93%',
     duration: 300
@@ -89,6 +105,7 @@ $('.modaltestimonials').click(function() {
     x: '0%',
     duration: 300
   }).fadeOut(500);
+
   $('.modal-testimonials').fadeIn(400).transition({
     x: '93%',
     duration: 300

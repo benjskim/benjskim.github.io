@@ -1,5 +1,5 @@
 /*----------
-  Bio Page
+Bio Page
 ----------*/
 .biocontainer {
   position: absolute;
@@ -20,9 +20,8 @@
 }
 
 /*----------------
-  Notre Dame Page
+Notre Dame Page
 ------------------*/
-
 .ndcontainer {
   position: absolute;
   top: 60%;
@@ -45,21 +44,19 @@
   background: url(../images/NDGoldenDome.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   height: 100%;
   z-index: 100;
-  top:5%;
+  top: 5%;
   padding-bottom: 5%;
 }
 
 /*----------------
-  Resume Page
+Resume Page
 ------------------*/
-
 .resumecontainer {
   position: absolute;
-  top: 60%;
+  top: 25%;
   left: 5%;
   width: 30%;
   padding: 10px;
@@ -80,11 +77,9 @@
   background: url(../images/work.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   z-index: 100;
 }
-
 
 /* ----------------
 Make a div class for container headings, container body, etc
