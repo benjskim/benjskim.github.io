@@ -11,17 +11,28 @@ $(document).ready(function(){
     });
 });
 
-//---Background Scroll---//
-// $(document).ready(function(){
-//   var $window = $(window);
-//   $('.ndbackground').each(function(){
-//     var $bgobj = $(this);
-//     $(window).scroll(function() {
-//       var yPos = -($window.scrollTop() / $bgobj.data('speed'));
-//       var coords = '50% '+ yPos + 'px';
-//       $bgobj.css({ backgroundPosition: coords });
-//       });
-//     });
+$(document).ready(function(){
+  var $window = $(window);
+  $('.ndbackground').each(function(){
+    var $bgobj = $(this);
+    $(window).scroll(function() {
+      var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+      var coords = '50% '+ yPos + 'px';
+      $bgobj.css({ backgroundPosition: coords });
+      });
+    });
+});
+
+// $(window).scroll(function() {
+//     var windowY = $(window).height();
+//     var scrolledY = $(window).scrollTop();
+//     var image_url = '../images/skyline.jpg';
+
+//     if (scrolledY > windowY) {
+//         image_url = '../images/work.png';
+//         }
+
+//     $('body').css('background', "url(" + image_url + ")");
 // });
 
 //---Box-7 ND Logo Transition Effect---//
