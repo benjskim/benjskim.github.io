@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/simplemodal.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/slider.css"> 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/pages.css">
 
     <title>Code Challenge</title>
@@ -104,11 +105,22 @@
       <div class='main-content quotebackground' data-speed='5'>
         <div class='quotecontainer'>
           <h1>Testimonials</h1>
-          <p>Ben is x, y, and z
-          </p>
+          <div class="slider">
+            <ul>
+              <li><div class="quote">Quote 1</div></li>
+              <li><div class="quote">Quote 2</div></li>
+              <li><div class="quote">Quote 3</div></li>
+              <li><div class="quote">Quote 4</div></li>
+            </ul>
+          </div>
+          
+          <div class="slider-nav">
+            <button data-dir="prev">Previous</button>
+            <button data-dir="next">Next</button>
+          </div>
+       
         </div>  
       </div>
-
     </div>
   </body>
 

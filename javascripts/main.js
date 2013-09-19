@@ -1,15 +1,12 @@
-//---Background Scroll---//
 $(document).ready(function(){
-  
+
+  //---Background Scroll---//
   var $window = $(window);
   $('body').each(function(){
     var $bgobj = $(this);
-
     $(window).scroll(function() {
-
       var yPos   = -($window.scrollTop() / $bgobj.data('speed'));
       var coords = '50% '+ yPos + 'px';
-
       $bgobj.css({ backgroundPosition: coords });
       });
     });
@@ -17,30 +14,55 @@ $(document).ready(function(){
   var $window = $(window);
   $('.ndbackground').each(function(){
     var $bgobj = $(this);
-
     $(window).scroll(function() {
-
       var yPos   = -($window.scrollTop() / $bgobj.data('speed'));
-      var coords = '150% '+ yPos + 'px';
-
+      var coords = '50% '+ yPos + 'px';
       $bgobj.css({ backgroundPosition: coords });
     });
   });
 
-  $('#slider').leanSlider();
+  //---Testimonials Slider---//
+  var sliderUL = $('.slider').css('overflow', 'hidden').children('ul'),
+    quotes = sliderUL.find('li'),
+    quoteWid = quotes[0].width, // 600
+    quotesLen = quotes.length, // 4
+    current = 1,
+    totalQuotesWid = quoteWid * quotesLen; // 2400
+  console.log(quoteWid);
+
+  $('.slider-nav').show().find('button').on('click', function() {
+    var direction = $(this).data('dir'),
+      loc = quoteWid; // 600
+
+      // Update Current Value
+    ( direction === 'next' ) ? ++current : --current;
+
+    // If first quote
+    if ( current === 0 ) {
+      current = quotesLen;
+      loc = totalQuotesWid - quoteWid; // 2400 - 600 = 1800
+      direction = 'next';
+    } else if (current - 1 === quotesLen) {
+      current = 1;
+      loc = 0;
+    }
+
+    transition(sliderUL, loc, direction);
+  });
+
+  function transition( container, loc, direction ) {
+    var unit; // -= +=
+
+    if (direction && loc !== 0) {
+      unit = (direction === 'next') ? '-=' : '+=';
+    }
+
+    container.animate({
+      'margin-left': unit ? (unit + loc) : loc
+    });
+  }
+
 });
-
-// $(window).scroll(function() {
-//     var windowY = $(window).height();
-//     var scrolledY = $(window).scrollTop();
-//     var image_url = '../images/skyline.jpg';
-
-//     if (scrolledY > windowY) {
-//         image_url = '../images/work.png';
-//         }
-
-//     $('body').css('background', "url(" + image_url + ")");
-// });
 
 //---Box-7 ND Logo Transition Effect---//
 function transitionIn() {
