@@ -23,12 +23,11 @@ $(document).ready(function(){
 
   //---Testimonials Slider---//
   var sliderUL = $('.slider').css('overflow', 'hidden').children('ul'),
-    quotes = sliderUL.find('li'),
-    quoteWid = quotes[0].width, // 600
+    quotes = sliderUL.find('.quote'),
+    quoteWid = 600, // can't use quotes[0].width for some reason
     quotesLen = quotes.length, // 4
     current = 1,
     totalQuotesWid = quoteWid * quotesLen; // 2400
-  console.log(quoteWid);
 
   $('.slider-nav').show().find('button').on('click', function() {
     var direction = $(this).data('dir'),
