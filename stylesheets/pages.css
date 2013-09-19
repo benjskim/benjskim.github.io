@@ -74,12 +74,31 @@ Resume Page
 
 .resumebackground {
   top: 5%;
+  padding-bottom: 5%;
   background: url(../images/work.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   z-index: 100;
 }
+
+/*----------------
+  Testimonials Page
+------------------*/
+
+.quotebackground {
+  background-color: tomato;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  padding-top: 5%;
+}
+.quotecontainer {
+  text-align: center;
+  color: white;
+}
+
+
 
 /* ----------------
 Make a div class for container headings, container body, etc
