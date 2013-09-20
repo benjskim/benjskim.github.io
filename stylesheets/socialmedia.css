@@ -1,6 +1,6 @@
 
-ul#sm { width: 100%; overflow: hidden; padding: 0;}
-ul#sm li { float: left; margin:0 5px 5px 0}
+ul#sm { width: 100%; overflow: hidden; padding: 0; margin: 10px 0px 20px -2.5px;}
+ul#sm li { float: left; margin: 0 5px 5px 0}
 ul#sm li:nth-last-child(1) { margin-right:0 }
 ul#sm li a { width:33px; height: 33px; display: block; background-image:url("../images/socialmedia.svg"); text-indent:-99999px }
 
