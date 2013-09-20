@@ -7,7 +7,7 @@ Bio Page
   left: 2.5%;
   width: 30%;
   padding: 10px;
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 1);
   position: -webkit-sticky;
   position: -moz-sticky;
   position: -ms-sticky;
@@ -19,7 +19,7 @@ Bio Page
   font-size: 45px;
   margin: -17.5% 0% 0% 25%;
   position: absolute;
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 1);
   border: 1px solid;
 }
 
@@ -32,7 +32,7 @@ Notre Dame Page
   left: 60%;
   width: 30%;
   padding: 10px;
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .ndcontainer:before {
@@ -40,7 +40,7 @@ Notre Dame Page
   font-size: 45px;
   margin: -17.5% 0% 0% 15%;
   position: absolute;
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 1);
   border: 1px solid;
 }
 
@@ -64,7 +64,7 @@ Resume Page
   left: 5%;
   width: 30%;
   padding: 10px;
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .resumecontainer:before {
@@ -72,7 +72,7 @@ Resume Page
   font-size: 45px;
   margin: -17.5% 0% 0% 20%;
   position: absolute;
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 1);
   border: 1px solid;
 }
 
@@ -107,7 +107,7 @@ Resume Page
 }
 
 .slider ul {
-  width: 10000px;
+  width: 5000px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -137,13 +137,6 @@ Resume Page
   text-align: center;
   color: white;
 }
-
-.quotecontainer:before{
-  content: ",,";
-  font-family: 'Georgia';
-  font-size: 5em;
-}
-
 
 /* ----------------
 Make a div class for container headings, container body, etc

@@ -25,21 +25,19 @@ $(document).ready(function(){
   var sliderUL = $('.slider').css('overflow', 'hidden').children('ul'),
     quotes = sliderUL.find('.quote'),
     quoteWid = 600, // can't use quotes[0].width for some reason
-    quotesLen = quotes.length, // 4
+    quotesLen = quotes.length,
     current = 1,
-    totalQuotesWid = quoteWid * quotesLen; // 2400
+    totalQuotesWid = quoteWid * quotesLen;
 
   $('.slider-nav').show().find('button').on('click', function() {
     var direction = $(this).data('dir'),
       loc = quoteWid; // 600
 
-      // Update Current Value
     ( direction === 'next' ) ? ++current : --current;
 
-    // If first quote
     if ( current === 0 ) {
       current = quotesLen;
-      loc = totalQuotesWid - quoteWid; // 2400 - 600 = 1800
+      loc = totalQuotesWid - quoteWid;
       direction = 'next';
     } else if (current - 1 === quotesLen) {
       current = 1;
@@ -49,9 +47,8 @@ $(document).ready(function(){
     transition(sliderUL, loc, direction);
   });
 
-  function transition( container, loc, direction ) {
-    var unit; // -= +=
-
+  function transition(container, loc, direction ) {
+    var unit;
     if (direction && loc !== 0) {
       unit = (direction === 'next') ? '-=' : '+=';
     }
