@@ -89,19 +89,60 @@ Resume Page
 /*----------------
   Testimonials Page
 ------------------*/
+.slider-nav { 
+  display: none; 
+  margin-top: 1em;
+}
+
+.slider-nav button {
+  cursor: pointer;
+}
+
+.slider {
+  width: 600px;
+  height: 300px;
+  margin: 0 21% 2.5%;
+  padding: 0;
+  overflow: scroll;
+}
+
+.slider ul {
+  width: 10000px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slider li {
+  float: left;
+  width: 600px;
+  height: 300px;  
+}
+
+.quote {
+  text-align: justify;
+  font-size: 1.2em;
+  padding: 10px;
+}
 
 .quotebackground {
-  background-color: tomato;
+  background-color: rgb(54,152,190);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   padding-top: 5%;
 }
 .quotecontainer {
+  padding-top: 5%;
   text-align: center;
   color: white;
 }
 
+.quotecontainer:before{
+  content: ",,";
+  font-family: 'Georgia';
+  font-size: 5em;
+}
 
 
 /* ----------------
