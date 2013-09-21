@@ -16,7 +16,7 @@ $(document).ready(function(){
     var $bgobj = $(this);
     $(window).scroll(function() {
       var yPos   = -($window.scrollTop() / $bgobj.data('speed'));
-      var coords = '50% '+ yPos + 'px';
+      var coords = '100% '+ yPos + 'px';
       $bgobj.css({ backgroundPosition: coords });
     });
   });
@@ -29,7 +29,7 @@ $(document).ready(function(){
     current = 1,
     totalQuotesWid = quoteWid * quotesLen;
 
-  $('.slider-nav').show().find('button').on('click', function() {
+  $('.slider-nav').show().find('a').on('click', function() {
     var direction = $(this).data('dir'),
       loc = quoteWid; // 600
 

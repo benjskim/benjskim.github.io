@@ -56,4 +56,4 @@
   content: '\e802';
   font-size: 2em; } /* '' */
 .icon-left-open:before { content: '\e800'; } /* '' */
-.icon-right-open:after { content: '\e801'; } /* '' */
+.icon-right-open:before { content: '\e801'; } /* '' */

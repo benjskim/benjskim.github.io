@@ -9,7 +9,7 @@
 
     <title>Code Challenge</title>
   </head>
-  <body data-speed='5'>
+  <body data-speed='10'>
     <!-- Navigation -->
     <nav>
       <div class='navbar'>
@@ -30,9 +30,9 @@
 
         <!-- Footer -->
         <footer>
-          <a href='mailto:benjskim@gmail.com' target='_blank'>Email Me</a></br>
-          <a href='http://github.com/benjskim/benjskim.github.io' target='_blank'>View on Github</a></br>
-          <a href='http://benk.im/blog/31-cssjavascript-features-in-31-days' target='_blank'>31 Days Coding Challenge</a></br>
+          <a href='mailto:benjskim@gmail.com' target='_blank' class='footer'>Email Me</a></br>
+          <a href='http://github.com/benjskim/benjskim.github.io' target='_blank' class='footer'>View on Github</a></br>
+          <a href='http://benk.im/blog/31-cssjavascript-features-in-31-days' target='_blank' class='footer'>31 Days Coding Challenge</a></br>
           <ul id="sm">
             <li><a class="facebook" href="http://www.facebook.com/benjaminjskim" target="_blank">Facebook</a></li>
             <li><a class="twitter" href="http://twitter.com/benkimtweets" target="_blank">Twitter</a></li>
@@ -50,7 +50,7 @@
         <!-- Row 1 -->
         <div class='row'>
           <div class='column box-1'></div>
-          <div class='column box-2 text5b'>Currently Under Construction</div>
+          <div class='column box-2 boxtext'>Currently Under Construction</div>
           <div class='column box-3'></div>
         </div>
 
@@ -59,9 +59,14 @@
           <div class='column box-4'></div>
           <div class='column box-5'>
             <div class='text5'>Hi</div></br>
-            <div class='text5b'>Welcome to my website!</div>
+            <div class='boxtext'>Welcome to my website!</div>
           </div>
-          <div class='column box-6'></div>
+          <div class='column box-6'>
+            <div class="boxtext icon-quote-left text6">
+              <div><a href='#' class='text6b' >Testimonials</a></div>
+            </div>
+          </div>
+          
         </div>
 
         <!-- Row 3 -->
@@ -87,7 +92,7 @@
       </div> 
 
       <!-- Notre Dame Page -->
-      <div class='main-content ndbackground' data-speed='10'>
+      <div class='main-content ndbackground' data-speed='13'>
         <div class='ndcontainer'>
           <p>
             Graduated from the University of Notre Dame in 2013 with a degree in Television and Media Studies.
@@ -97,7 +102,7 @@
       </div>
 
       <!-- Resume Page -->
-      <div class='main-content resumebackground' data-speed='5'>
+      <div class='main-content resumebackground'>
         <div class='resumecontainer'>
           <p>
             I did x, y, z
@@ -108,7 +113,7 @@
       </div>
 
       <!-- Testimonials Page -->
-      <div class='main-content quotebackground' data-speed='5'>
+      <div class='main-content quotebackground'>
         <div class='icon-quote-left quotecontainer'>
           <h1>Testimonials</h1>
           <div class="slider">
@@ -128,8 +133,8 @@
           </div>
           
           <div class="slider-nav">
-            <button data-dir="prev">Previous</button>
-            <button data-dir="next">Next</button>
+            <a data-dir='prev' class='icon-left-open'></a>
+            <a data-dir='next' class='icon-right-open'></a>
           </div>
        
         </div>  

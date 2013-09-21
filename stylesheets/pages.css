@@ -94,8 +94,16 @@ Resume Page
   margin-top: 1em;
 }
 
-.slider-nav button {
+.slider-nav a {
   cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.slider-nav a:hover {
+  cursor: pointer;
+  color: silver;
+  text-decoration: none;
 }
 
 .slider {
