@@ -1,0 +1,318 @@
+/*----------
+Main
+----------*/
+body {
+  background: url(../images/skyline.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0 0 0 0;
+  z-index: 10;
+}
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img[class='bio'] {
+  width: 60%;
+  height: 60%;
+  padding-bottom: 10px;
+  margin: -5px 0 5px 0;
+  margin-left: 5%;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.75em;
+  line-height: 1em;
+  margin-left: 5px;
+}
+
+h3 {
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  margin: -20px 0 15px 0;
+  margin-left: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #7c7ab3;
+}
+
+a:hover {
+  color: #3a3f9c;
+}
+
+.hidden {
+  display: none;
+}
+
+body > nav {
+  background-image: url('../images/sos.png');
+  position: fixed;
+  background-color: rgba(255, 255, 248, 1);
+  color: rgb(51, 51, 51);
+  height: 100%;
+  width: 18%;
+  min-height: 525px;
+  min-width: 160px;
+  padding: 0 0 0 15px;
+  z-index: 1000;
+  
+}
+
+.navbar {
+  padding-left: 2.5%;
+}
+
+.menu {
+  font-family: 'Helvetica Neue';
+  font-size: 1.2em;
+  margin-left: -8px;
+  float: left;
+}
+
+footer {
+  font-family: 'Helvetica Neue';
+  position: absolute;
+  font-size: .95em;
+  padding-right: 0;
+  bottom: 0%;
+  margin-left: 8px;
+}
+
+.container {
+  width: 81%;
+  height: 100%;
+  min-width: 750px;
+  min-height: 300px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  left: 19%;
+  position: absolute;
+}
+
+.container > .main-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.row {
+  height: 33.333%;
+}
+
+.column {
+  position: relative;
+  display: inline-block;
+  text-align: right;
+  float: left;
+  height: 100%;
+  min-height: 150px;
+  min-width: 250px;
+  width: 33.333%;
+  z-index: 10;
+}
+
+/*-----------------
+Individual Boxes
+------------------*/
+.box-1 {
+  background: rgba(78, 129, 229, 1);
+}
+
+.box-2 {
+  background: rgba(144, 178, 71, 1);
+}
+
+.box-3 {
+  background: rgba(0, 63, 76, 1);
+}
+
+.box-4 {
+  background: rgba(240, 239, 136, 1);
+}
+
+.box-5 {
+  background: rgba(163, 62, 175, 1);
+}
+
+.text5 {
+  position: relative;
+  color: white;
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 500%;
+  width: 50%;
+  height: 50%;
+  top: 20%;
+  left: 25%;
+}
+
+img[class='nd'] {
+  width: 45%;
+  height: 70%;
+  position: relative;
+  left: -27.5%;
+  top: 15%;
+}
+
+.boxtext {
+  position: relative;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+
+.box-6 {
+  background: rgba(54,152,190,1);
+}
+
+.text6 {
+  color: white;
+  margin-top: 17.5%;
+}
+
+.text6b {
+  color: white;
+  margin-top: 5%;
+  font-size: 2.5rem;
+}
+
+.text6b:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.box-7 {
+  background: rgba(0, 43, 91, 1);
+}
+
+.text7 {
+  display: none;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.3em;
+  bottom: 8%;
+}
+
+.box-8 {
+  background: rgba(240, 123, 0, 1);
+}
+
+.box-9 {
+  background-color: rgba(238,162,154,1);
+}
+
+/*------------------------
+Nav Menu CSS Animation
+------------------------*/
+#nav .current a {
+  background: #666;
+  color: #ededed;
+}
+.current {
+  background: red;
+}
+
+.pullright {
+  -webkit-transition-property: color, background-color, padding-left;
+  -moz-transition-property: color, background-color, padding-left;
+  -o-transition-property: color, background-color, padding-left;
+  -ms-transition-property: color, background-color, padding-left;
+  transition-property: color, background-color, padding-left;
+
+  -webkit-transition-duration: 400ms, 400ms, 400ms;
+  -moz-transition-duration: 400ms, 400ms, 400ms;
+  -o-transition-duration: 400ms, 400ms, 400ms;
+  -ms-transition-duration: 400ms, 400ms, 400ms;
+  transition-duration: 400ms, 400ms, 400ms;
+}
+
+.pullright:hover {
+  color: #3a3f9c;
+  padding-left: 20px;
+}
+
+.menu a::before,.menu a::after {
+  display: inline-block;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s,;
+}
+
+.menu a::before {
+  margin-right: 5px;
+  -moz-transition: -moz-transform 0.3s,;
+  -o-transition: -o-transform 0.3s,;
+  -ms-transition: -ms-transform 0.3s,;
+  transition: transform 0.3s,;
+}
+
+.menu a::before {
+  margin-right: 5px;
+  content: '<';
+
+  -webkit-transform: translateX(30px);
+  -moz-transform: translateX(30px);
+  -o-transform: translateX(30px);
+  -ms-transform: translateX(30px);
+  transform: translateX(30px);
+}
+
+.menu a::after {
+  margin-left: 5px;
+  content: '/>';
+
+  -webkit-transform: translateX(-30px);
+  -moz-transform: translateX(-30px);
+  -o-transform: translateX(-30px);
+  -ms-transform: translateX(-30px);
+  transform: translateX(-30px);
+}
+
+.menu a:hover::before,.menu a:hover::after,.menu a:focus::before,.menu a:focus::after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+/*-------------------
+   Social Media Icons
+--------------------*/
+
+ul#sm { width: 100%; overflow: hidden; padding: 0; margin: 10px 0px 20px -2.5px;}
+ul#sm li { float: left; margin: 0 5px 5px 0}
+ul#sm li:nth-last-child(1) { margin-right:0 }
+ul#sm li a { width:33px; height: 33px; display: block; background-image:url("../images/socialmedia.svg"); text-indent:-99999px }
+
+a.facebook { background-position: 0 0 }
+a.facebook:hover { background-position: 0 -33px;}
+
+a.twitter { background-position: -40px 0 }
+a.twitter:hover { background-position: -40px -33px;}
+
+a.gplus { background-position: -80px 0 }
+a.gplus:hover { background-position: -80px -33px;}
+
+a.linkedin { background-position: -240px 0 }
+a.linkedin:hover { background-position: -240px -33px;}
