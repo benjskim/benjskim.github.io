@@ -2,15 +2,15 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/simplemodal.css">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/fontello.css">    
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/socialmedia.css">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/pages.css">
 
     <title>Code Challenge</title>
   </head>
+
   <body data-speed='10'>
-    <!-- Navigation -->
+    
+    <!--     Navigation     -->
     <nav>
       <div class='navbar'>
         <h1>
@@ -20,12 +20,15 @@
         
         <h3>Marketer &#38;</br>Aspiring Web Dev</h3>
         
-        <!-- Menu -->
+        <!--     Menu     -->
         <div class='menu'>
-          <a href='#' class='pullright modalabout'>About</a></br>
-          <a href='#' class='pullright modalresume'>Resume</a></br>
-          <a href='#' class='pullright modaltestimonials'>Testimonials</a></br>
-          <a href='#' class='pullright'>Publications</a></br>
+          <ul id='nav'>
+            <li><a href='#home' class='pullright current'>Home</a></br></li>
+            <li><a href='#about' class='pullright modalabout'>About</a></br></li>
+            <li><a href='#resume' class='pullright modalresume'>Resume</a></br></li>
+            <li><a href='#testimonials' class='pullright modaltestimonials'>Testimonials</a></br></li>
+            <li><a href='#publications' class='pullright'>Publications</a></br></li>
+          </ul>
         </div>
 
         <!-- Footer -->
@@ -46,7 +49,7 @@
     <div class='container'>
 
       <!-- First Page Start -->
-      <div class='main-content'>
+      <div id='home' class='main-content'>
         <!-- Row 1 -->
         <div class='row'>
           <div class='column box-1'></div>
@@ -81,7 +84,7 @@
       </div>
 
       <!-- About Page -->
-      <div class='main-content'>
+      <div id='about' class='main-content'>
         <div class='biocontainer'>
           <p>
             Ben is a marketing/brand manager based in Los Angeles, California. Passionate about education, corporate social responsibility, sustainable development, documentaries, traveling, current affairs, and common sense public policy.
@@ -102,7 +105,7 @@
       </div>
 
       <!-- Resume Page -->
-      <div class='main-content resumebackground'>
+      <div id='resume' class='main-content resumebackground'>
         <div class='resumecontainer'>
           <p>
             I did x, y, z
@@ -113,7 +116,7 @@
       </div>
 
       <!-- Testimonials Page -->
-      <div class='main-content quotebackground'>
+      <div id='testimonials' class='main-content quotebackground'>
         <div class='icon-quote-left quotecontainer'>
           <h1>Testimonials</h1>
           <div class="slider">
@@ -196,5 +199,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
   <script src="javascripts/jquery.hoverIntent.minified.js" ></script>
   <script src="javascripts/jquery.transit.js" ></script>
+  <script src="jquery.scrollTo.js"></script>
+  <script src="jquery.nav.js"></script>
   <script src="javascripts/main.js" ></script>
 </html>

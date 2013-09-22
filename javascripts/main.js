@@ -7,6 +7,7 @@ $(document).ready(function(){
     $(window).scroll(function() {
       var yPos   = -($window.scrollTop() / $bgobj.data('speed'));
       var coords = '50% '+ yPos + 'px';
+
       $bgobj.css({ backgroundPosition: coords });
       });
     });
@@ -17,16 +18,17 @@ $(document).ready(function(){
     $(window).scroll(function() {
       var yPos   = -($window.scrollTop() / $bgobj.data('speed'));
       var coords = '100% '+ yPos + 'px';
+
       $bgobj.css({ backgroundPosition: coords });
     });
   });
 
   //---Testimonials Slider---//
   var sliderUL = $('.slider').css('overflow', 'hidden').children('ul'),
-    quotes = sliderUL.find('.quote'),
-    quoteWid = 600, // can't use quotes[0].width for some reason
-    quotesLen = quotes.length,
-    current = 1,
+    quotes         = sliderUL.find('.quote'),
+    quoteWid       = 600,
+    quotesLen      = quotes.length,
+    current        = 1,
     totalQuotesWid = quoteWid * quotesLen;
 
   $('.slider-nav').show().find('a').on('click', function() {
@@ -36,12 +38,12 @@ $(document).ready(function(){
     ( direction === 'next' ) ? ++current : --current;
 
     if ( current === 0 ) {
-      current = quotesLen;
-      loc = totalQuotesWid - quoteWid;
+      current   = quotesLen;
+      loc       = totalQuotesWid - quoteWid;
       direction = 'next';
     } else if (current - 1 === quotesLen) {
       current = 1;
-      loc = 0;
+      loc     = 0;
     }
 
     transition(sliderUL, loc, direction);
@@ -88,46 +90,68 @@ $('.box-7').hoverIntent({
   // out: transitionOut
 });
 
+// Single-page Navigation
+$('#nav').onePageNav({
+    currentClass: 'current',
+    changeHash: false,
+    scrollSpeed: 1500,
+    scrollOffset: 30,
+    scrollThreshold: 0.5,
+    filter: '',
+    easing: 'swing',
+    begin: function() {
+        //I get fired when the animation is starting
+    },
+    end: function() {
+        //I get fired when the animation is ending
+    },
+    scrollChange: function($currentListItem) {
+        //I get fired when you enter a section and I pass the list item of the section
+    }
+});
+
+
+
 //Menu Modal
-$('.modalabout').click(function() {
-  $('.simple-modal').transition({
-    x:  '0%',
-    duration:  300
-  }).fadeOut(500);
+// $('.modalabout').click(function() {
+//   $('.simple-modal').transition({
+//     x:  '0%',
+//     duration:  300
+//   }).fadeOut(500);
 
-  $('.modal-about').fadeIn(400).transition({
-    x: '93%',
-    duration: 300
-  });
-});
+//   $('.modal-about').fadeIn(400).transition({
+//     x: '93%',
+//     duration: 300
+//   });
+// });
 
-$('.modalresume').click(function() {
-  $('.simple-modal').transition({
-    x: '0%',
-    duration: 300
-  }).fadeOut(500);
+// $('.modalresume').click(function() {
+//   $('.simple-modal').transition({
+//     x: '0%',
+//     duration: 300
+//   }).fadeOut(500);
 
-  $('.modal-resume').fadeIn(400).transition({
-    x: '93%',
-    duration: 300
-  });
-});
+//   $('.modal-resume').fadeIn(400).transition({
+//     x: '93%',
+//     duration: 300
+//   });
+// });
 
-$('.modaltestimonials').click(function() {
-  $('.simple-modal').transition({
-    x: '0%',
-    duration: 300
-  }).fadeOut(500);
+// $('.modaltestimonials').click(function() {
+//   $('.simple-modal').transition({
+//     x: '0%',
+//     duration: 300
+//   }).fadeOut(500);
 
-  $('.modal-testimonials').fadeIn(400).transition({
-    x: '93%',
-    duration: 300
-  });
-});
+//   $('.modal-testimonials').fadeIn(400).transition({
+//     x: '93%',
+//     duration: 300
+//   });
+// });
 
-$('.closebutton').click(function() {
-  $('.simple-modal').transition({
-    x: '0%',
-    duration: 300
-  }).fadeOut(500);
-});  
+// $('.closebutton').click(function() {
+//   $('.simple-modal').transition({
+//     x: '0%',
+//     duration: 300
+//   }).fadeOut(500);
+// });  
