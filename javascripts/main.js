@@ -94,7 +94,7 @@ $('.box-7').hoverIntent({
 $('#nav').onePageNav({
     currentClass: 'current',
     changeHash: false,
-    scrollSpeed: 1500,
+    scrollSpeed: 200,
     scrollOffset: 30,
     scrollThreshold: 0.5,
     filter: '',
@@ -106,6 +106,6 @@ $('#nav').onePageNav({
         //I get fired when the animation is ending
     },
     scrollChange: function($currentListItem) {
-        //I get fired when you enter a section and I pass the list item of the section
+        
     }
 });

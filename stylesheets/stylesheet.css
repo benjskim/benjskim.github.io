@@ -218,6 +218,14 @@ img[class='nd'] {
 /*------------------------
 Nav Menu CSS Animation
 ------------------------*/
+#nav .current a {
+  background: #666;
+  color: #ededed;
+}
+.current {
+  background: red;
+}
+
 .pullright {
   -webkit-transition-property: color, background-color, padding-left;
   -moz-transition-property: color, background-color, padding-left;
@@ -248,20 +256,8 @@ Nav Menu CSS Animation
 .menu a::before {
   margin-right: 5px;
   -moz-transition: -moz-transform 0.3s,;
-}
-
-.menu a::before {
-  margin-right: 5px;
   -o-transition: -o-transform 0.3s,;
-}
-
-.menu a::before {
-  margin-right: 5px;
   -ms-transition: -ms-transform 0.3s,;
-}
-
-.menu a::before {
-  margin-right: 5px;
   transition: transform 0.3s,;
 }
 
