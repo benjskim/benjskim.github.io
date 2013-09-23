@@ -11,19 +11,20 @@
 <body>
 
 <!-- Navigation -->
+<div id="container">
   <nav>
     <ul>
-      <li><a href='#'>About</a></li>
+      <li><a href='#about'>About</a></li>
       <li><a href='#'>Blog</a></li>
       <li><a href='#'>Resume</a></li>
-      <li><a href='#'>Projects</a></li>
-      <li><a href='#'>Testimonials</a></li>
+      <li><a href='#projects'>Projects</a></li>
+      <li><a href='#testimonials'>Testimonials</a></li>
       <li><a href='#'>Contact</a></li>
     </ul>
   </nav>
 
 <!-- Header -->
-  <div id='header' data-speed='10'>
+  <div id='home' class='header' data-speed='10'>
     <div class='overlay'></div>
     <div class='headertext'>
       <div class="char1">[</div>
@@ -35,29 +36,32 @@
   </div>
 
 <!-- About Me -->
-  <div class='container aboutcontainer'>
+  <div id='about' class='container aboutcontainer'>
     <div class='containertext'>
       <h2>About Me</h2>
     </div>
   </div>
 
 <!-- My Work -->
-  <div class='container workcontainer'>
+  <div id='projects' class='container workcontainer'>
     <div class='containertext'>
       <h2>Projects</h2>
     </div>
   </div>
 
 <!-- Testimonials -->
-  <div class='container quotescontainer'>
+  <div id='testimonials' class='container quotescontainer'>
     <div class='containertext'>
       <h2>Testimonials</h2>
     </div>
   </div>
+</div>
 
 </body>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
   <script src="javascripts/jquery.hoverIntent.minified.js" ></script>
   <script src="javascripts/jquery.transit.js" ></script>
+  <script src="javascripts/jquery.fullContent.min.js" ></script>
+  <script src="javascripts/jquery.scrollTo.js"></script> 
   <script src="javascripts/main.js" ></script>
 </html>

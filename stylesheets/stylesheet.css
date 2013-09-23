@@ -7,6 +7,11 @@
   font-weight: 300;
 }
 
+body {
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
+
 /*------Navigation-----*/
 nav {
   position: fixed;
@@ -63,7 +68,7 @@ h3 {
 }
 
 /*-----Header------*/
-#header {
+.header {
   position: absolute;
   background: url(../images/skyline.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -97,7 +102,7 @@ h3 {
 
 .char1 {
   font-size: 12em;
-  margin: 0px 0px -152.5px -20px;
+  margin: 0px 0px -152.5px -7.5px;
   opacity: 0;
 }
 
