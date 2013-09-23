@@ -31,7 +31,13 @@ nav a {
   text-decoration: none;
   color: white;
   padding: 20px;
+  margin: -5px;
   font-size: 18px;
+  -o-transition:.25s;
+  -ms-transition:.25s;
+  -moz-transition:.25s;
+  -webkit-transition:.25s;
+  transition:.25s;
 }
 
 nav a:hover {
@@ -40,7 +46,7 @@ nav a:hover {
 }
 
 h1 {
-  font-size: 6em;
+  font-size: 5em;
   font-weight: 500;
   line-height: 1em;
 }
@@ -82,6 +88,17 @@ h3 {
   left: 5%;
   bottom: 10%;
   z-index: 30;
+  -webkit-backface-visibility: hidden;
+}
+
+.fadeheader {
+  opacity: 0;
+}
+
+.char1 {
+  font-size: 12em;
+  margin: 0px 0px -152.5px -20px;
+  opacity: 0;
 }
 
 /*-----About Me-----*/
