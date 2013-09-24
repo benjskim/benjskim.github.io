@@ -1,17 +1,18 @@
 $(function() {
+
   $(".fadeheader").transition({
-    x: '30px',
+    x: '35px',
     opacity: 1,
-    duration: 1200,
-    delay: 1350
-  })
+    duration: 1000,
+    delay: 700
+  });
 
   $(".char1").transition({
     y: '30px',
     opacity: 1,
-    duration: 1000,
-    delay: 500
-  })
+    duration: 800,
+    delay: 100
+  });
 
   $('#container').fullContent({ 
     stages: 'div', 

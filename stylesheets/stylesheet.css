@@ -12,6 +12,7 @@ body {
   overflow-y: hidden;
 }
 
+
 /*------Navigation-----*/
 nav {
   position: fixed;
@@ -67,6 +68,7 @@ h3 {
   font-weight: 300;
 }
 
+
 /*-----Header------*/
 .header {
   position: absolute;
@@ -106,6 +108,7 @@ h3 {
   opacity: 0;
 }
 
+
 /*-----About Me-----*/
 .containertext {
   position: absolute;
@@ -129,12 +132,15 @@ h3 {
   z-index: 40;
 }
 
+
+/*-----Projects-----*/
 .workcontainer {
   background-color: rgba(238,162,154,1);
   top: 200%;
   z-index: 40;
 }
 
+/*----Quotes-----*/
 .quotescontainer {
   background-color: rgba(78, 129, 229, 1);
   top: 300%;
