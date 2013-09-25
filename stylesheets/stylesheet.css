@@ -108,6 +108,14 @@ h3 {
   opacity: 0;
 }
 
+a.navabout,a.navprojects,a.navtestimonials {
+  position: fixed;
+  color: white;
+  z-index: 100;
+  bottom: 5%;
+  right: 5%;
+  text-decoration: none;
+}
 
 /*-----About Me-----*/
 .containertext {
