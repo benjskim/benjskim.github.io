@@ -22,3 +22,9 @@ $(function() {
     idComplement: 'page_' 
   });
 });
+
+
+jQuery("nav").fitText(1.2, { minFontSize: '16px', maxFontSize: '16px' });
+jQuery("h1").fitText(1.2, { minFontSize: '50px', maxFontSize: '80px' });
+jQuery("h2").fitText(1.2, { minFontSize: '40px', maxFontSize: '64px' });
+jQuery("h3").fitText(1.2, { minFontSize: '30px', maxFontSize: '48px' });
