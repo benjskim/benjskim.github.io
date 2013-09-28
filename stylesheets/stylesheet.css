@@ -101,6 +101,7 @@ h3 {
 
 .fadeheader {
   opacity: 0;
+  padding-right: 50px;
 }
 
 .char1 {
@@ -109,7 +110,7 @@ h3 {
   opacity: 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .char1 {
     display: none;
   }
