@@ -12,7 +12,6 @@ body {
   overflow-y: hidden;
 }
 
-
 /*------Navigation-----*/
 nav {
   position: fixed;
@@ -84,7 +83,6 @@ h3 {
 .overlay{
   position: absolute;
   background-color: rgba(16,16,16,.3);
-
   width: 100%;
   height: 100%;
   z-index: 20;
@@ -110,11 +108,7 @@ h3 {
   opacity: 0;
 }
 
-@media screen and (max-width: 950px) {
-  .char1 {
-    display: none;
-  }
-}
+
 
 /*-----About Me-----*/
 .containertext {
@@ -135,22 +129,47 @@ h3 {
 
 .aboutcontainer {  
   background-color: rgb(54,152,190);
-  top:100%;
-  z-index: 40;
+  z-index: 20;
 }
 
 
 /*-----Projects-----*/
 .workcontainer {
   background-color: rgba(238,162,154,1);
-  top: 200%;
-  z-index: 40;
+  z-index: 20;
 }
 
 /*----Quotes-----*/
 .quotescontainer {
   background-color: rgba(78, 129, 229, 1);
-  top: 300%;
-  z-index: 40;
+  z-index: 20;
 }
 
+
+/*-----Mobile-----*/
+@media screen and (max-width: 925px) {
+  .char1 {
+    display: none;
+  }
+  nav {
+    display: none;
+    background-color: rgba(16,16,16,.5); 
+    text-transform: uppercase;
+    width: 220px;
+    top: 1%;
+    border: 1px solid white;
+    letter-spacing: .4em;
+    padding: 5px 0px 5px 20px;
+  }
+  nav li {
+    display: inline;
+    text-align: left;
+  }
+  nav a {
+    display: block;
+    padding: 8px;
+    margin: 0px;
+    font-size: 18px;
+
+  }
+}
