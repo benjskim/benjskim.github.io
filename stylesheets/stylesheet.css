@@ -12,6 +12,7 @@ body {
   overflow-y: hidden;
 }
 
+
 /*------Navigation-----*/
 nav {
   position: fixed;
@@ -82,7 +83,7 @@ h3 {
 
 .overlay{
   position: absolute;
-  background-color: rgba(16,16,16,.3);
+  background-color: rgba(16,16,16,.25);
   width: 100%;
   height: 100%;
   z-index: 20;
@@ -109,6 +110,35 @@ h3 {
 }
 
 
+/*-----Sliding Nav Bar-----*/
+a.slidingnav {
+  z-index: 200;
+  position: fixed;
+  padding: 10px;
+  opacity: .85;
+}
+
+#pageslide {
+  /* These styles MUST be included. Do not change. */
+  display: none;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 999999;
+  
+  /* Specify the width of your pageslide here */
+  width: 250px;
+  padding: 2px;
+  
+  /* These styles are optional, and describe how the pageslide will look */
+  background-color: white;
+  margin: 0;
+  color: #FFF;
+  -webkit-box-shadow: inset 0 0 1px 1px #222;
+  -moz-shadow: inset 0 0 1px 1px #222;
+  box-shadow: inset 0 0 1px 1px #222;
+}
 
 /*-----About Me-----*/
 .containertext {
@@ -129,25 +159,29 @@ h3 {
 
 .aboutcontainer {  
   background-color: rgb(54,152,190);
-  z-index: 20;
+  top: 100%;
+  z-index: 21;
 }
 
 
 /*-----Projects-----*/
 .workcontainer {
   background-color: rgba(238,162,154,1);
-  z-index: 20;
+  top: 100%;
+  z-index: 21;
 }
+
 
 /*----Quotes-----*/
 .quotescontainer {
   background-color: rgba(78, 129, 229, 1);
-  z-index: 20;
+  top: 100%;
+  z-index: 21;
 }
 
 
 /*-----Mobile-----*/
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 935px) {
   .char1 {
     display: none;
   }
@@ -169,7 +203,7 @@ h3 {
     display: block;
     padding: 8px;
     margin: 0px;
-    font-size: 18px;
+    font-size: 15px;
 
   }
 }

@@ -21,6 +21,9 @@ $(function() {
     speedTransition: 800, 
     idComplement: 'page_' 
   });
+
+  $(".slidingnav").pageslide();
+
 });
 
 
