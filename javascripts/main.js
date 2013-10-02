@@ -24,6 +24,11 @@ $(function() {
 
   $(".slidingnav").pageslide();
 
+  $("a[href='#resume']").click(function() {
+    $('.modal').fadeIn(600);
+    $('iframe').fadeIn(500);
+  });
+
 });
 
 

@@ -3,7 +3,8 @@ body {
   font-family: 'Open Sans';
   font-size: 15px;
   font-weight: 300;
-  margin: 0 0 0 0;
+  margin: 0;
+  padding: 0;
 }
 
 #nav {
@@ -55,9 +56,10 @@ ul li{
   color: rgb(51, 51, 51);
   height: 100%;
   width: 100%;
-  min-height: 525px;
+  min-height: 600px;
   min-width: 160px;
-  padding: 15px 0 0 20px;
+  margin: 0;
+  padding: 15px 0 0 25px;
   z-index: 1000;
 }
 
