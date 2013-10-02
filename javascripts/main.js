@@ -25,8 +25,13 @@ $(function() {
   $(".slidingnav").pageslide();
 
   $("a[href='#resume']").click(function() {
-    $('.modal').fadeIn(600);
+    $('.modal').fadeIn(700);
     $('iframe').fadeIn(500);
+  });
+
+  $(".modal").click(function() {
+    $('.modal').fadeOut(500);
+    $('iframe').fadeOut(700);
   });
 
 });
