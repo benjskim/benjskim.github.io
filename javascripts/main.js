@@ -34,26 +34,85 @@ $(function() {
     $('iframe').fadeOut(700);
   });
 
-  // function transitionIn() {
-  //   $('img').transition({
-  //     y: '-25px',
-  //     duration: 500
-  //   });
-  // }
+  $("img[alt='one']").on("mouseover", function() {
+    $(this).transition({
+      rotate: '10deg',
+      y: '-15'
+    });
+  });
 
-  // function transitionOut() {
-  //   $('img').transition({
-  //     y: '0px',
-  //     duration: 600
-  //   });  
-  // }
+  $("img[alt='one']").on("mouseleave", function() {
+    $(this).transition({
+      rotate: '8deg',
+      y: '0'
+    });
+  });
 
-  // $('img').hoverIntent({ 
-  //   over: transitionIn,
-  //   timeout: 200,
-  //   interval: 200,
-  //   out: transitionOut
-  // });
+  $("img[alt='two']").on("mouseover", function() {
+    $(this).transition({
+      rotate: '-10deg',
+      y: '-25',
+      x: '-10'
+    });
+  });
+
+  $("img[alt='two']").on("mouseleave", function() {
+    $(this).transition({
+      rotate: '-8deg',
+      y: '0',
+      x: '0'
+    });
+  });
+
+  $("img[alt='three']").on("mouseover", function() {
+    $(this).transition({
+      rotate: '9deg',
+      y: '-25',
+      x: '15'
+    });
+  });
+
+  $("img[alt='three']").on("mouseleave", function() {
+    $(this).transition({
+      rotate: '7deg',
+      y: '0',
+      x: '0'
+    });
+  });
+
+  $("img[alt='four']").on("mouseover", function() {
+    $(this).transition({
+      rotate: '10deg',
+      y: '-35',
+      x: '-10'
+    });
+  });
+
+  $("img[alt='four']").on("mouseleave", function() {
+    $(this).transition({
+      rotate: '15deg',
+      y: '0',
+      x: '0'
+    });
+  });
+
+  $("img[alt='five']").on("mouseover", function() {
+    $(this).transition({
+      rotate: '-15deg',
+      y: '-25',
+      x: '-20'
+    });
+  });
+
+  $("img[alt='five']").on("mouseleave", function() {
+    $(this).transition({
+      rotate: '-15deg',
+      y: '0',
+      x: '0'
+    });
+  });
+
+
 
 });
 
