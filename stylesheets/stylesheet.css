@@ -195,9 +195,10 @@ a.slidingnav {
   box-shadow: inset 2px 1px 1px 1px #404040;
 }
 
-.aboutcontainer img[title='one'] {
+.aboutcontainer img[alt='one'] {
   position: absolute;
   background-color: white;
+  cursor: pointer;
   bottom: 5%;
   right: 10%;
   width: 250px;
@@ -207,15 +208,16 @@ a.slidingnav {
   -webkit-transform: rotate(8deg);
   -moz-transform: rotate(8deg);
 
-  -webkit-box-shadow: 3px 3px 6px #333;
-  -moz-shadow: 3px 3px 6px #333;
-  box-shadow: 3px 3px 6px #333;
+  -webkit-box-shadow: 2px 2px 6px #333;
+  -moz-shadow: 2px 2px 6px #333;
+  box-shadow: 2px 2px 6px #333;
   z-index: 19;
 }
 
-.aboutcontainer img[title='two'] {
+.aboutcontainer img[alt='two'] {
   position: absolute;
   background-color: white;
+  cursor: pointer;
   bottom: 12%;
   right: 15%;
   width: 250px;
@@ -225,35 +227,37 @@ a.slidingnav {
   -webkit-transform: rotate(-8deg);
   -moz-transform: rotate(-8deg);
 
-  -webkit-box-shadow: 3px 3px 6px #333;
-  -moz-shadow: 3px 3px 6px #333;
-  box-shadow: 3px 3px 6px #333;
+  -webkit-box-shadow: 1px 1px 2px #333;
+  -moz-shadow: 1px 1px 2px #333;
+  box-shadow: 1px 1px 2px #333;
   z-index: 18;
 }
 
-.aboutcontainer img[title='three'] {
+.aboutcontainer img[alt='three'] {
   position: absolute;
   background-color: white;
-  bottom: 20%;
+  cursor: pointer;
+  top: 25%;
   right: 8%;
   width: 250px;
   border: 1px solid rgba(0,0,0,.25);
   padding: 15px 15px 80px 15px;
 
-  -webkit-transform: rotate(1deg);
-  -moz-transform: rotate(1deg);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
 
-  -webkit-box-shadow: 3px 3px 6px #333;
-  -moz-shadow: 3px 3px 6px #333;
-  box-shadow: 3px 3px 6px #333;
+  -webkit-box-shadow: 2px 3px 3px #333;
+  -moz-shadow: 2px 3px 3px #333;
+  box-shadow: 2px 3px 3px #333;
   z-index: 17;
 }
 
-.aboutcontainer img[title='four'] {
+.aboutcontainer img[alt='four'] {
   position: absolute;
   background-color: white;
-  bottom: 30%;
-  right: 8%;
+  cursor: pointer;
+  top: 15%;
+  right: 10%;
   width: 250px;
   border: 1px solid rgba(0,0,0,.25);
   padding: 15px 15px 80px 15px;
@@ -261,16 +265,17 @@ a.slidingnav {
   -webkit-transform: rotate(15deg);
   -moz-transform: rotate(15deg);
 
-  -webkit-box-shadow: 3px 3px 6px #333;
-  -moz-shadow: 3px 3px 6px #333;
-  box-shadow: 3px 3px 6px #333;
+  -webkit-box-shadow: 2px 3px 6px #333;
+  -moz-shadow: 2px 3px 6px #333;
+  box-shadow: 2px 3px 6px #333;
   z-index: 16;
 }
 
-.aboutcontainer img[title='five'] {
+.aboutcontainer img[alt='five'] {
   position: absolute;
   background-color: white;
-  bottom: 35%;
+  cursor: pointer;
+  top: 8%;
   right: 15%;
   width: 250px;
   border: 1px solid rgba(0,0,0,.25);
@@ -279,9 +284,9 @@ a.slidingnav {
   -webkit-transform: rotate(-15deg);
   -moz-transform: rotate(-15deg);
 
-  -webkit-box-shadow: 3px 3px 6px #333;
-  -moz-shadow: 3px 3px 6px #333;
-  box-shadow: 3px 3px 6px #333;
+  -webkit-box-shadow: 1px 10px 10px #333;
+  -moz-shadow: 1px 10px 10px #333;
+  box-shadow: 1px 10px 10px #333;
   z-index: 15;
 }
 

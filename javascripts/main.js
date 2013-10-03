@@ -34,6 +34,27 @@ $(function() {
     $('iframe').fadeOut(700);
   });
 
+  // function transitionIn() {
+  //   $('img').transition({
+  //     y: '-25px',
+  //     duration: 500
+  //   });
+  // }
+
+  // function transitionOut() {
+  //   $('img').transition({
+  //     y: '0px',
+  //     duration: 600
+  //   });  
+  // }
+
+  // $('img').hoverIntent({ 
+  //   over: transitionIn,
+  //   timeout: 200,
+  //   interval: 200,
+  //   out: transitionOut
+  // });
+
 });
 
 
