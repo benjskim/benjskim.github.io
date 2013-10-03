@@ -195,12 +195,12 @@ a.slidingnav {
   box-shadow: inset 2px 1px 1px 1px #404040;
 }
 
-.aboutcontainer img[title='title'] {
+.aboutcontainer img[title='one'] {
   position: absolute;
   background-color: white;
-  top: 30%;
+  bottom: 5%;
   right: 10%;
-  width: 280px;
+  width: 250px;
   border: 1px solid rgba(0,0,0,.25);
   padding: 15px 15px 80px 15px;
 
@@ -211,6 +211,78 @@ a.slidingnav {
   -moz-shadow: 3px 3px 6px #333;
   box-shadow: 3px 3px 6px #333;
   z-index: 19;
+}
+
+.aboutcontainer img[title='two'] {
+  position: absolute;
+  background-color: white;
+  bottom: 12%;
+  right: 15%;
+  width: 250px;
+  border: 1px solid rgba(0,0,0,.25);
+  padding: 15px 15px 80px 15px;
+
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+
+  -webkit-box-shadow: 3px 3px 6px #333;
+  -moz-shadow: 3px 3px 6px #333;
+  box-shadow: 3px 3px 6px #333;
+  z-index: 18;
+}
+
+.aboutcontainer img[title='three'] {
+  position: absolute;
+  background-color: white;
+  bottom: 20%;
+  right: 8%;
+  width: 250px;
+  border: 1px solid rgba(0,0,0,.25);
+  padding: 15px 15px 80px 15px;
+
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+
+  -webkit-box-shadow: 3px 3px 6px #333;
+  -moz-shadow: 3px 3px 6px #333;
+  box-shadow: 3px 3px 6px #333;
+  z-index: 17;
+}
+
+.aboutcontainer img[title='four'] {
+  position: absolute;
+  background-color: white;
+  bottom: 30%;
+  right: 8%;
+  width: 250px;
+  border: 1px solid rgba(0,0,0,.25);
+  padding: 15px 15px 80px 15px;
+
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+
+  -webkit-box-shadow: 3px 3px 6px #333;
+  -moz-shadow: 3px 3px 6px #333;
+  box-shadow: 3px 3px 6px #333;
+  z-index: 16;
+}
+
+.aboutcontainer img[title='five'] {
+  position: absolute;
+  background-color: white;
+  bottom: 35%;
+  right: 15%;
+  width: 250px;
+  border: 1px solid rgba(0,0,0,.25);
+  padding: 15px 15px 80px 15px;
+
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+
+  -webkit-box-shadow: 3px 3px 6px #333;
+  -moz-shadow: 3px 3px 6px #333;
+  box-shadow: 3px 3px 6px #333;
+  z-index: 15;
 }
 
 .aboutcontainer .ndlogo {
