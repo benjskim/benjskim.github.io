@@ -68,6 +68,37 @@ h3 {
   font-weight: 300;
 }
 
+p {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+/*-----Sliding Nav Bar-----*/
+a.slidingnav {
+  z-index: 200;
+  position: fixed;
+  padding: 10px;
+  opacity: .85;
+}
+
+#pageslide {
+  /* These styles MUST be included. Do not change. */
+  display: none;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 999999;
+  
+  width: 225px;
+  padding: 1px;
+  
+  background-color: white;
+  margin: 0;
+  -webkit-box-shadow: inset 0 0 1px 1px #404040;
+  -moz-shadow: inset 0 0 1px 1px #404040;
+  box-shadow: inset 0 0 1px 1px #404040;
+}
 
 /*-----Header------*/
 .container {
@@ -118,36 +149,6 @@ h3 {
   opacity: 0;
 }
 
-
-/*-----Sliding Nav Bar-----*/
-a.slidingnav {
-  z-index: 200;
-  position: fixed;
-  padding: 10px;
-  opacity: .85;
-}
-
-#pageslide {
-  /* These styles MUST be included. Do not change. */
-  display: none;
-  position: absolute;
-  position: fixed;
-  top: 0;
-  height: 100%;
-  z-index: 999999;
-  
-  /* Specify the width of your pageslide here */
-  width: 225px;
-  padding: 1px;
-  
-  /* These styles are optional, and describe how the pageslide will look */
-  background-color: white;
-  margin: 0;
-  -webkit-box-shadow: inset 0 0 1px 1px #404040;
-  -moz-shadow: inset 0 0 1px 1px #404040;
-  box-shadow: inset 0 0 1px 1px #404040;
-}
-
 /*-----Resume-----*/
 
 .modal {
@@ -171,25 +172,19 @@ a.slidingnav {
 /*-----About Me-----*/
 .abouttext {
   position: absolute;
-  background-color: rgba(60,60,60,.6);
+  background-color: rgba(60,60,60,.75);
   color: white;
   top: 5%;
   left: 5%;
   text-align: justify;
   width: 40%;
   min-width: 290px;
-
-
   padding: 35px;
+  z-index: 20;
   box-shadow: 4px 4px 4px #404040;
 }
 
-.abouttext p {
-  font-size: 1.2em;
-}
-
 .aboutcontainer {  
-  /*background-color: rgb(54,152,190);*/
   background-image: url('../images/retina_wood.png');
   background-color: white;
   top: 100%;
@@ -198,6 +193,45 @@ a.slidingnav {
   -webkit-box-shadow: inset 2px 1px 1px 1px #404040;
   -moz-shadow: inset 2px 1px 1px 1px #404040;
   box-shadow: inset 2px 1px 1px 1px #404040;
+}
+
+.aboutcontainer img[title='title'] {
+  position: absolute;
+  background-color: white;
+  top: 30%;
+  right: 10%;
+  width: 280px;
+  border: 1px solid rgba(0,0,0,.25);
+  padding: 15px 15px 80px 15px;
+
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+
+  -webkit-box-shadow: 3px 3px 6px #333;
+  -moz-shadow: 3px 3px 6px #333;
+  box-shadow: 3px 3px 6px #333;
+  z-index: 19;
+}
+
+.aboutcontainer .ndlogo {
+  position: absolute;
+  background-color: green;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  bottom: 50px;
+  left: 40%;
+
+  -webkit-transform: rotate(-12.5deg);
+  -moz-transform: rotate(-12.5deg);
+}
+
+.aboutcontainer .ndlogo img{
+  position: relative;
+  padding: 100px;
+  width: 50%;
+  top: -25%;
+  left: -22.5%;
 }
 
 /*-----Projects-----*/
