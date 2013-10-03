@@ -38,6 +38,6 @@ $(function() {
 
 
 jQuery("nav").fitText(1.5, { minFontSize: '16px', maxFontSize: '16px' });
-jQuery("h1").fitText(1.2, { minFontSize: '50px', maxFontSize: '80px' });
+jQuery("h1").fitText(1.2, { minFontSize: '60px', maxFontSize: '80px' });
 jQuery("h2").fitText(1.2, { minFontSize: '50px', maxFontSize: '64px' });
 jQuery("h3").fitText(1.5, { minFontSize: '30px', maxFontSize: '48px' });

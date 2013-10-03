@@ -107,10 +107,12 @@ h3 {
 
 .fadeheader {
   opacity: 0;
-  padding-right: 50px;
+  padding-right: 25px;
+
 }
 
 .char1 {
+  display: none;
   font-size: 12em;
   margin: 0px 0px -145px -7.5px;
   opacity: 0;
@@ -150,7 +152,7 @@ a.slidingnav {
 
 .modal {
   display: none;
-  background-color: rgba(16,16,16,.8);
+  background-color: rgba(16,16,16,.7);
   position: absolute;
   top: 0px;
   width: 100%;
@@ -167,19 +169,36 @@ a.slidingnav {
 }
 
 /*-----About Me-----*/
-.containertext {
+.abouttext {
   position: absolute;
+  background-color: rgba(60,60,60,.6);
   color: white;
-  top: 10%;
+  top: 5%;
   left: 5%;
+  text-align: justify;
+  width: 40%;
+  min-width: 290px;
+
+
+  padding: 35px;
+  box-shadow: 4px 4px 4px #404040;
+}
+
+.abouttext p {
+  font-size: 1.2em;
 }
 
 .aboutcontainer {  
-  background-color: rgb(54,152,190);
+  /*background-color: rgb(54,152,190);*/
+  background-image: url('../images/retina_wood.png');
+  background-color: white;
   top: 100%;
   z-index: 21;
-}
 
+  -webkit-box-shadow: inset 2px 1px 1px 1px #404040;
+  -moz-shadow: inset 2px 1px 1px 1px #404040;
+  box-shadow: inset 2px 1px 1px 1px #404040;
+}
 
 /*-----Projects-----*/
 .workcontainer {
@@ -187,7 +206,6 @@ a.slidingnav {
   top: 100%;
   z-index: 21;
 }
-
 
 /*----Quotes-----*/
 .quotescontainer {
@@ -198,15 +216,14 @@ a.slidingnav {
 
 
 /*-----Mobile-----*/
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 500px) {
   .char1 {
     display: none;
   }
   nav {
-    display: none;
     background-color: rgba(16,16,16,.5); 
     text-transform: uppercase;
-    width: 220px;
+    width: 200px;
     top: 1%;
     border: 1px solid white;
     letter-spacing: .4em;
@@ -214,13 +231,12 @@ a.slidingnav {
   }
   nav li {
     display: inline;
-    text-align: left;
+    text-align: right;
   }
   nav a {
     display: block;
     padding: 8px;
     margin: 0px;
     font-size: 15px;
-
   }
 }
