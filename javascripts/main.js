@@ -34,19 +34,22 @@ $(function() {
     $('iframe').fadeOut(700);
   });
 
+
+// ----- Polaroids ----- //
   function transitionIn1() {
     $(this).transition({
-      rotate: '10deg',
+      rotate: '6deg',
       y: '-15',
-      x: '5',
+      x: '15',
       duration: 300
     });  
   }
 
   function transitionOut1() {
     $(this).transition({
-      rotate: '8deg',
+      rotate: '1deg',
       y: '0',
+      x: '0',
       duration: 300
     });  
   }
@@ -96,7 +99,7 @@ $(function() {
 
   function transitionOut3() {
     $(this).transition({
-      rotate: '7deg',
+      rotate: '2deg',
       y: '0',
       x: '0',
       duration: 300
@@ -122,7 +125,7 @@ $(function() {
 
   function transitionOut4() {
     $(this).transition({
-      rotate: '10deg',
+      rotate: '6deg',
       y: '0',
       x: '0',
       duration: 300
@@ -139,16 +142,16 @@ $(function() {
 
   function transitionIn5() {
     $(this).transition({
-      rotate: '-15deg',
-      y: '-25',
-      x: '-20',
+      rotate: '-12deg',
+      y: '-30',
+      x: '-30',
       duration: 300
     });  
   }
 
   function transitionOut5() {
     $(this).transition({
-      rotate: '-15deg',
+      rotate: '-10deg',
       y: '0',
       x: '0',
       duration: 300
@@ -164,7 +167,7 @@ $(function() {
 });
   
 
-
+// ----- Fit Text ----- //
 jQuery("nav").fitText(1.5, { minFontSize: '16px', maxFontSize: '16px' });
 jQuery("h1").fitText(1.2, { minFontSize: '60px', maxFontSize: '80px' });
 jQuery("h2").fitText(1.2, { minFontSize: '50px', maxFontSize: '64px' });

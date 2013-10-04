@@ -207,12 +207,21 @@ a.slidingnav {
   padding: 15px 15px 80px 15px;
 }
 
+.aboutcontainer img::after{
+  content: 'Hi';
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 2em;
+  color: black;
+  z-index: 50;
+}
+
 .aboutcontainer img[alt='one'] {
   bottom: 5%;
   right: 10%;
   
-  -webkit-transform: rotate(8deg);
-  -moz-transform: rotate(8deg);
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
 
   -webkit-box-shadow: 2px 2px 6px #333;
   -moz-shadow: 2px 2px 6px #333;
@@ -236,10 +245,10 @@ a.slidingnav {
 
 .aboutcontainer img[alt='three'] {
   top: 26%;
-  right: 7%;
+  right: 6%;
 
-  -webkit-transform: rotate(5deg);
-  -moz-transform: rotate(5deg);
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
 
   -webkit-box-shadow: 2px 3px 3px #333;
   -moz-shadow: 2px 3px 3px #333;
@@ -251,8 +260,8 @@ a.slidingnav {
   top: 15%;
   right: 10%;
 
-  -webkit-transform: rotate(10deg);
-  -moz-transform: rotate(10deg);
+  -webkit-transform: rotate(6deg);
+  -moz-transform: rotate(6deg);
 
   -webkit-box-shadow: 2px 3px 6px #333;
   -moz-shadow: 2px 3px 6px #333;
@@ -262,10 +271,10 @@ a.slidingnav {
 
 .aboutcontainer img[alt='five'] {
   top: 8%;
-  right: 16%;
+  right: 17%;
 
-  -webkit-transform: rotate(-15deg);
-  -moz-transform: rotate(-15deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
 
   -webkit-box-shadow: 1px 10px 10px #333;
   -moz-shadow: 1px 10px 10px #333;
@@ -293,6 +302,16 @@ a.slidingnav {
   top: -25%;
   left: -22.5%;
 }
+
+/*.modal2 {
+  position: absolute;
+  background-color: rgba(1,1,1,.8);
+  height: 100%;
+  width: 45%;
+  right: 0%;
+  z-index: 99999;
+}*/
+
 
 /*-----Projects-----*/
 .workcontainer {
