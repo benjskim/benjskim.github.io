@@ -34,87 +34,135 @@ $(function() {
     $('iframe').fadeOut(700);
   });
 
-  $("img[alt='one']").on("mouseover", function() {
+  function transitionIn1() {
     $(this).transition({
       rotate: '10deg',
-      y: '-15'
-    });
-  });
+      y: '-15',
+      x: '5',
+      duration: 300
+    });  
+  }
 
-  $("img[alt='one']").on("mouseleave", function() {
+  function transitionOut1() {
     $(this).transition({
       rotate: '8deg',
-      y: '0'
-    });
+      y: '0',
+      duration: 300
+    });  
+  }
+
+  $("img[alt='one']").hoverIntent({ 
+    over: transitionIn1,
+    timeout: 100,
+    interval: 100,
+    out: transitionOut1
   });
 
-  $("img[alt='two']").on("mouseover", function() {
+
+  function transitionIn2() {
     $(this).transition({
-      rotate: '-10deg',
+      rotate: '-15deg',
       y: '-25',
-      x: '-10'
-    });
-  });
+      x: '-30',
+      duration: 300
+    });  
+  }
 
-  $("img[alt='two']").on("mouseleave", function() {
+  function transitionOut2() {
     $(this).transition({
       rotate: '-8deg',
       y: '0',
-      x: '0'
-    });
+      x: '0',
+      duration: 300
+    });  
+  }
+
+  $("img[alt='two']").hoverIntent({ 
+    over: transitionIn2,
+    timeout: 100,
+    interval: 100,
+    out: transitionOut2
   });
 
-  $("img[alt='three']").on("mouseover", function() {
+
+  function transitionIn3() {
     $(this).transition({
       rotate: '9deg',
       y: '-25',
-      x: '15'
-    });
-  });
+      x: '15',
+      duration: 300
+    });  
+  }
 
-  $("img[alt='three']").on("mouseleave", function() {
+  function transitionOut3() {
     $(this).transition({
       rotate: '7deg',
       y: '0',
-      x: '0'
-    });
-  });
+      x: '0',
+      duration: 300
+    });  
+  }
 
-  $("img[alt='four']").on("mouseover", function() {
+  $("img[alt='three']").hoverIntent({ 
+    over: transitionIn3,
+    timeout: 100,
+    interval: 100,
+    out: transitionOut3
+  });
+  
+
+  function transitionIn4() {
     $(this).transition({
-      rotate: '2deg',
+      rotate: '10deg',
       y: '-35',
-      x: '-10'
-    });
-  });
+      x: '5',
+      duration: 300
+    });  
+  }
 
-  $("img[alt='four']").on("mouseleave", function() {
+  function transitionOut4() {
     $(this).transition({
       rotate: '10deg',
       y: '0',
-      x: '0'
-    });
+      x: '0',
+      duration: 300
+    });  
+  }
+
+  $("img[alt='four']").hoverIntent({ 
+    over: transitionIn4,
+    timeout: 100,
+    interval: 100,
+    out: transitionOut4
   });
 
-  $("img[alt='five']").on("mouseover", function() {
+
+  function transitionIn5() {
     $(this).transition({
       rotate: '-15deg',
-      y: '-15',
-      x: '-20'
-    });
-  });
+      y: '-25',
+      x: '-20',
+      duration: 300
+    });  
+  }
 
-  $("img[alt='five']").on("mouseleave", function() {
+  function transitionOut5() {
     $(this).transition({
       rotate: '-15deg',
       y: '0',
-      x: '0'
-    });
+      x: '0',
+      duration: 300
+    });  
+  }
+
+  $("img[alt='five']").hoverIntent({ 
+    over: transitionIn5,
+    timeout: 100,
+    interval: 100,
+    out: transitionOut5
   });
-
-
-
 });
+  
 
 
 jQuery("nav").fitText(1.5, { minFontSize: '16px', maxFontSize: '16px' });
