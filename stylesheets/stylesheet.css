@@ -1,4 +1,15 @@
 /*-----All-----*/
+@font-face {
+    font-family: 'EntypoRegular';
+    src: url('../fonts/entypo.eot');
+    src: url('../fonts/entypo.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/entypo.woff') format('woff'),
+         url('../fonts/entypo.ttf') format('truetype'),
+         url('../fonts/entypo.svg#EntypoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -82,8 +93,14 @@ p {
 a.slidingnav {
   z-index: 200;
   position: fixed;
-  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  padding: 0px 10px 4px 10px;
   opacity: .85;
+  background-color: rgba(16,16,16,.8);
+  border-radius: 10px;
+  margin: 5px 0px 0px 5px;
 }
 
 #pageslide {
@@ -153,6 +170,28 @@ a.slidingnav {
   opacity: 0;
 }
 
+.downarrow {
+  position: absolute;
+  font-family: 'EntypoRegular';
+  font-size: 5em;
+  color: white;
+  z-index: 100;
+  bottom: 0;
+  right: 10px;
+  text-decoration: none;
+}
+
+.uparrow {
+  position: absolute;
+  font-family: 'EntypoRegular';
+  font-size: 5em;
+  color: white;
+  z-index: 100;
+  top: 0;
+  right: 10px;
+  text-decoration: none;
+}
+
 /*-----Resume-----*/
 
 .modal {
@@ -207,17 +246,8 @@ a.slidingnav {
   padding: 15px 15px 80px 15px;
 }
 
-.aboutcontainer img::after{
-  content: 'Hi';
-  display: inline-block;
-  margin-left: 5px;
-  font-size: 2em;
-  color: black;
-  z-index: 50;
-}
-
 .aboutcontainer img[alt='one'] {
-  bottom: 5%;
+  top: 45%;
   right: 10%;
   
   -webkit-transform: rotate(1deg);
@@ -231,7 +261,7 @@ a.slidingnav {
 }
 
 .aboutcontainer img[alt='two'] {
-  bottom: 12%;
+  top: 36%;
   right: 17.5%;
 
   -webkit-transform: rotate(-8deg);
