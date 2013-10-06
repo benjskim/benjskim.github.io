@@ -1,4 +1,7 @@
 $(function() {
+  $('.subMenu').smint({
+    'scrollSpeed' : 1000
+  });
   
   $(".fadeheader").transition({
     x: '35px',

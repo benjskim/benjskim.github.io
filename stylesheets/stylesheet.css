@@ -134,16 +134,10 @@ a.slidingnav {
 }
 
 /*-----Header------*/
-.container {
-  position: absolute;
-  width: 100%;
-  height: auto;
-}
-
 .header {
   position: absolute;
   width: 100%;
-  height: 80%;
+  height: 60%;
   z-index: 10;
   
   background: url(../images/skyline.png) no-repeat center center fixed;
@@ -181,17 +175,28 @@ a.slidingnav {
 }
 
 /*-----About Me-----*/
+.container {
+  height: auto;
+  position: absolute;
+  width: 100%;
+  top: 60%;
+  z-index: 50;
+}
+
 .aboutcontainer {  
   background-image: url('../images/retina_wood.png');
   background-color: white;
-  position: absolute;
+
   width: 100%;
+  top: 75%;
+  height: auto;
   z-index: 21;
 
   -webkit-box-shadow: inset 2px 1px 1px 1px #404040;
   -moz-shadow: inset 2px 1px 1px 1px #404040;
   box-shadow: inset 2px 1px 1px 1px #404040;
 }
+
 .abouttext {
   position: absolute;
   background-color: rgba(60,60,60,.75);
@@ -205,42 +210,20 @@ a.slidingnav {
   box-shadow: 6px 6px 7px rgba(0,0,0,.7);
 }
 
-
-
 /*-----Projects-----*/
 .workcontainer {
   background-color: rgba(238,162,154,1);
-  top: 100%;
   z-index: 21;
 }
 
 /*----Quotes-----*/
 .quotescontainer {
   background-color: rgba(78, 129, 229, 1);
-  top: 100%;
   z-index: 21;
 }
 
 
 /*-----Mobile-----*/
 @media screen and (max-width: 500px) {
-  nav {
-    background-color: rgba(16,16,16,.5); 
-    text-transform: uppercase;
-    width: 200px;
-    top: 1%;
-    border: 1px solid white;
-    letter-spacing: .4em;
-    padding: 5px 0px 5px 20px;
-  }
-  nav li {
-    display: inline;
-    text-align: right;
-  }
-  nav a {
-    display: block;
-    padding: 8px;
-    margin: 0px;
-    font-size: 15px;
-  }
+  
 }
