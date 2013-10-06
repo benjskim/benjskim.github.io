@@ -14,13 +14,13 @@ $(function() {
     delay: 100
   });
 
-  $('#container').fullContent({ 
-    stages: 'div', 
-    mapPosition: [{v: 1, h: 1}, {v: 2, h: 1}, {v: 3, h: 1}, {v: 4, h: 1}], 
-    stageStart: 1, 
-    speedTransition: 800, 
-    idComplement: 'page_' 
-  });
+  // $('#container').fullContent({ 
+  //   stages: 'div', 
+  //   mapPosition: [{v: 1, h: 1}, {v: 2, h: 1}, {v: 3, h: 1}, {v: 4, h: 1}], 
+  //   stageStart: 1, 
+  //   speedTransition: 800, 
+  //   idComplement: 'page_' 
+  // });
 
   $(".slidingnav").pageslide();
 
@@ -165,7 +165,7 @@ $(function() {
     out: transitionOut5
   });
 });
-  
+
 
 // ----- Fit Text ----- //
 // jQuery("nav").fitText(1.5, { minFontSize: '16px', maxFontSize: '16px' });

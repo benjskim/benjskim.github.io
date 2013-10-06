@@ -19,24 +19,29 @@
 }
 
 body {
-  overflow-x: hidden; 
-  overflow-y: hidden;
+/*  overflow-x: hidden; 
+  overflow-y: hidden;*/
 }
 
 
 /*------Navigation-----*/
 nav {
   position: fixed;
-  text-align: center;
+  background-color: white;
+  text-align: right;
   text-transform: uppercase;
   width: 100%;
-  top: 40px;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  letter-spacing: .4em;
+
+/*  border-top: 1px solid white;*/
+/*  border-bottom: 1px solid black;*/
+  letter-spacing: .3em;
   padding: 20px;
-  z-index: 20;
-  margin-left: -20px;
+  z-index: 99999;
+  margin-left: -25px;
+
+  -webkit-box-shadow: 1px 1px 3px #333;
+  -moz-shadow: 1px 1px 3px #333;
+  box-shadow: 1px 1px 3px #333;
 }
 
 nav li {
@@ -46,10 +51,12 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: white;
+  font-weight: 400;
+  color: rgba(45,45,45,1);
   padding: 20px;
   margin: -5px;
-  font-size: 18px;
+  font-size: 16.5px;
+
   -o-transition:.25s;
   -ms-transition:.25s;
   -moz-transition:.25s;
@@ -59,7 +66,16 @@ nav a {
 
 nav a:hover {
   color: white;
-  background-color: rgba(45,45,45,.4);
+  background-color: rgba(124,122,179,.75);
+}
+
+.logo {
+  text-transform: none;
+  margin-left: 25px;
+  margin-top: -17.5px;
+  text-align: left;
+  position: fixed;
+  font-size: 40px;
 }
 
 h1 {
@@ -142,13 +158,13 @@ a.slidingnav {
 }
 
 .overlay{
-  background-color: rgba(16,16,16,.25);
+  background-color: rgba(16,16,16,.35);
   width: 100%;
   height: 100%;
   z-index: 20;
 }
 
-.headertext{
+/*.headertext{
   position: fixed;
   color: white;
   left: 5%;
@@ -161,14 +177,7 @@ a.slidingnav {
   opacity: 0;
   padding-right: 25px;
 
-}
-
-.char1 {
-  display: none;
-  font-size: 12em;
-  margin: 0px 0px -145px -7.5px;
-  opacity: 0;
-}
+}*/
 
 .downarrow {
   position: absolute;
@@ -229,119 +238,13 @@ a.slidingnav {
 .aboutcontainer {  
   background-image: url('../images/retina_wood.png');
   background-color: white;
-  top: 100%;
+  top: 80%;
   z-index: 21;
 
   -webkit-box-shadow: inset 2px 1px 1px 1px #404040;
   -moz-shadow: inset 2px 1px 1px 1px #404040;
   box-shadow: inset 2px 1px 1px 1px #404040;
 }
-
-.aboutcontainer img{
-  position: absolute;
-  background-color: white;
-  cursor: pointer;
-  width: 250px;
-  border: 1px solid rgba(0,0,0,.25);
-  padding: 15px 15px 80px 15px;
-}
-
-.aboutcontainer img[alt='one'] {
-  top: 45%;
-  right: 10%;
-  
-  -webkit-transform: rotate(1deg);
-  -moz-transform: rotate(1deg);
-
-  -webkit-box-shadow: 2px 2px 6px #333;
-  -moz-shadow: 2px 2px 6px #333;
-  box-shadow: 2px 2px 6px #333;
-  
-  z-index: 19;
-}
-
-.aboutcontainer img[alt='two'] {
-  top: 36%;
-  right: 17.5%;
-
-  -webkit-transform: rotate(-8deg);
-  -moz-transform: rotate(-8deg);
-
-  -webkit-box-shadow: 1px 1px 2px #333;
-  -moz-shadow: 1px 1px 2px #333;
-  box-shadow: 1px 1px 2px #333;
-  z-index: 18;
-}
-
-.aboutcontainer img[alt='three'] {
-  top: 26%;
-  right: 6%;
-
-  -webkit-transform: rotate(2deg);
-  -moz-transform: rotate(2deg);
-
-  -webkit-box-shadow: 2px 3px 3px #333;
-  -moz-shadow: 2px 3px 3px #333;
-  box-shadow: 2px 3px 3px #333;
-  z-index: 17;
-}
-
-.aboutcontainer img[alt='four'] {
-  top: 15%;
-  right: 10%;
-
-  -webkit-transform: rotate(6deg);
-  -moz-transform: rotate(6deg);
-
-  -webkit-box-shadow: 2px 3px 6px #333;
-  -moz-shadow: 2px 3px 6px #333;
-  box-shadow: 2px 3px 6px #333;
-  z-index: 16;
-}
-
-.aboutcontainer img[alt='five'] {
-  top: 8%;
-  right: 17%;
-
-  -webkit-transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-
-  -webkit-box-shadow: 1px 10px 10px #333;
-  -moz-shadow: 1px 10px 10px #333;
-  box-shadow: 1px 10px 10px #333;
-  z-index: 15;
-}
-
-.aboutcontainer .ndlogo {
-  position: absolute;
-  background-color: green;
-  border-radius: 100%;
-  width: 200px;
-  height: 200px;
-  bottom: 50px;
-  left: 40%;
-
-  -webkit-transform: rotate(-12.5deg);
-  -moz-transform: rotate(-12.5deg);
-}
-
-.aboutcontainer .ndlogo img{
-  position: relative;
-  padding: 100px;
-  width: 50%;
-  top: -25%;
-  left: -22.5%;
-}
-
-/*.modal2 {
-  position: absolute;
-  background-color: rgba(1,1,1,.8);
-  height: 100%;
-  width: 45%;
-  right: 0%;
-  z-index: 99999;
-}*/
-
 
 /*-----Projects-----*/
 .workcontainer {
@@ -360,9 +263,6 @@ a.slidingnav {
 
 /*-----Mobile-----*/
 @media screen and (max-width: 500px) {
-  .char1 {
-    display: none;
-  }
   nav {
     background-color: rgba(16,16,16,.5); 
     text-transform: uppercase;
