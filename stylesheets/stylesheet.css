@@ -18,30 +18,24 @@
   font-weight: 300;
 }
 
-body {
-/*  overflow-x: hidden; 
-  overflow-y: hidden;*/
-}
-
 
 /*------Navigation-----*/
 nav {
   position: fixed;
-  background-color: white;
+  background-color: rgb(235,235,235);
   text-align: right;
   text-transform: uppercase;
-  width: 100%;
-
-/*  border-top: 1px solid white;*/
-/*  border-bottom: 1px solid black;*/
+  width: 95%;
+  left: 2.5%;
+  border-radius: 3px;
   letter-spacing: .3em;
   padding: 20px;
   z-index: 99999;
-  margin-left: -25px;
+  margin-left: -20px;
 
-  -webkit-box-shadow: 1px 1px 3px #333;
-  -moz-shadow: 1px 1px 3px #333;
-  box-shadow: 1px 1px 3px #333;
+  -webkit-box-shadow: 2px 2px 3px #404040;
+  -moz-shadow: 2px 2px 3px #404040;
+  box-shadow: 2px 2px 3px #404040;
 }
 
 nav li {
@@ -67,6 +61,7 @@ nav a {
 nav a:hover {
   color: white;
   background-color: rgba(124,122,179,.75);
+  border-bottom: 2px solid rgba(255,255,255,.8);
 }
 
 .logo {
@@ -142,13 +137,13 @@ a.slidingnav {
 .container {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .header {
   position: absolute;
-  height: 100%;
   width: 100%;
+  height: 80%;
   z-index: 10;
   
   background: url(../images/skyline.png) no-repeat center center fixed;
@@ -159,46 +154,10 @@ a.slidingnav {
 
 .overlay{
   background-color: rgba(16,16,16,.35);
+  position: fixed;
   width: 100%;
   height: 100%;
   z-index: 20;
-}
-
-/*.headertext{
-  position: fixed;
-  color: white;
-  left: 5%;
-  bottom: 10%;
-  z-index: 30;
-  -webkit-backface-visibility: hidden;
-}
-
-.fadeheader {
-  opacity: 0;
-  padding-right: 25px;
-
-}*/
-
-.downarrow {
-  position: absolute;
-  font-family: 'EntypoRegular';
-  font-size: 5em;
-  color: white;
-  z-index: 100;
-  bottom: 0;
-  right: 10px;
-  text-decoration: none;
-}
-
-.uparrow {
-  position: absolute;
-  font-family: 'EntypoRegular';
-  font-size: 5em;
-  color: white;
-  z-index: 100;
-  top: 0;
-  right: 10px;
-  text-decoration: none;
 }
 
 /*-----Resume-----*/
@@ -222,6 +181,17 @@ a.slidingnav {
 }
 
 /*-----About Me-----*/
+.aboutcontainer {  
+  background-image: url('../images/retina_wood.png');
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  z-index: 21;
+
+  -webkit-box-shadow: inset 2px 1px 1px 1px #404040;
+  -moz-shadow: inset 2px 1px 1px 1px #404040;
+  box-shadow: inset 2px 1px 1px 1px #404040;
+}
 .abouttext {
   position: absolute;
   background-color: rgba(60,60,60,.75);
@@ -235,16 +205,7 @@ a.slidingnav {
   box-shadow: 6px 6px 7px rgba(0,0,0,.7);
 }
 
-.aboutcontainer {  
-  background-image: url('../images/retina_wood.png');
-  background-color: white;
-  top: 80%;
-  z-index: 21;
 
-  -webkit-box-shadow: inset 2px 1px 1px 1px #404040;
-  -moz-shadow: inset 2px 1px 1px 1px #404040;
-  box-shadow: inset 2px 1px 1px 1px #404040;
-}
 
 /*-----Projects-----*/
 .workcontainer {
