@@ -22,7 +22,13 @@
 
 * {margin: 0; padding: 0; outline: 0;}
 
-
+/*::selection {
+  background: #ffb7b7;
+  }
+::-moz-selection {
+  background: #ffb7b7;
+}
+*/
 body {
   font-family: "Open sans", Arial, Verdana, sans-serif;
   color: white;
@@ -75,7 +81,7 @@ p {
   display: block;
   width: 40px;
   height: 40px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 10px;
 }
@@ -94,14 +100,14 @@ p {
 }
 
 .section {
-  width: 90%;
+  width: 85%;
   /*max-width: 1140px;*/
   min-width: 960px;
   z-index: 10;
   position: relative;
   margin: 0 auto;
   padding: 0 0 20px 0;
-  border-top: 1px solid #ccc;
+/*  border-top: 1px solid #ccc;*/
 /*  border-left: 1px solid #404040;
   border-right: 1px solid #404040;*/
 }
@@ -109,15 +115,15 @@ p {
 
 .inner {
   width: auto;
-  margin: 0 5% 0 5%;
+  margin: 0 7.5% 0 7.5%;
   position: relative;
   min-height: 50px;
   font-size: 18px;
-  padding:30px 0;
+  padding:50px 0;
 }
 
 .subMenu {
-  position: absolute;
+  position: fixed;
   height: 50px;
   z-index: 1000;
   width: 100%;
@@ -168,7 +174,7 @@ p {
   height: 35px;
   width: auto;
   float: left;
-  margin: 0px 0px 0 0;
+  margin: 0;
   text-decoration: none;
   font-size: 15px;
   padding: 15px 30px 0 30px;
@@ -189,7 +195,6 @@ p {
   min-height: 500px;
   background:#e5e5e5;
   color:#3d3d3d;
-  background-attachment: fixed;
   background: url(../images/skyline.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -200,6 +205,7 @@ p {
 .s1 {
   min-height: 500px;
   background: gray;
+/*  border-top: 1px solid #ccc;*/
 }
 
 .inner img[class="biopic"] {
@@ -224,6 +230,7 @@ p {
 .s2 {
   min-height: 500px;
   background: rgb(71,141,71);
+
 }
 
 
@@ -242,6 +249,7 @@ p {
 .s5 {
   min-height: 450px;
   background: #293b4d;
+
 }
 
 .socialbtn {
@@ -296,6 +304,34 @@ p {
 
 /*----- Section 6 -----*/
 .s6 {
-  min-height: 100px;
   background: #3f3f3f;
+  min-height: 142px;
+  margin-bottom: 0;
+  border-top: 1px solid #ccc;
 }
+
+.arrow-down {
+  width: 0; height: 0; 
+  border:20px solid transparent;
+  border-top-color:#6e87a1;
+  margin-left: 48.3%;
+}
+
+.arrow1 {
+  border-top-color: gray;
+}
+.arrow2 {
+  border-top-color:rgb(71,141,71);
+}
+.arrow3 {
+  border-top-color:#504f4f;
+}
+
+.arrow4 {
+  border-top-color:#6e87a1;
+}
+
+.arrow5 {
+  border-top-color:#293b4d;
+}
+
