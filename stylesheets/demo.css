@@ -77,12 +77,19 @@ p {
   position: absolute;
   top: 0;
   left: 10px;
+
+
 }
 
 .active {
   color: white;
   background-color: rgba(58,63,156,.75);
   border-bottom: 2px solid rgba(255,255,255,.8);
+  -o-transition:.20s;
+  -ms-transition:.20s;
+  -moz-transition:.20s;
+  -webkit-transition:.20s;
+  transition:.20s;
 }
 
 .clear {
@@ -99,7 +106,7 @@ p {
 }
 
 .section {
-  width: 95%;
+  width: 90%;
   /*max-width: 1140px;*/
   min-width: 960px;
   z-index: 10;
@@ -132,12 +139,19 @@ p {
   -webkit-box-shadow: 0px 2px 3px #404040;
   -moz-shadow: 0px 2px 3px #404040;
   box-shadow: 0px 2px 3px #404040;
+
+
 }
 
 .subMenu a:hover {
   color: white;
   background-color: rgba(124,122,179,.75);
   border-bottom: 2px solid rgba(255,255,255,.8);
+  -o-transition:.20s;
+  -ms-transition:.20s;
+  -moz-transition:.20s;
+  -webkit-transition:.20s;
+  transition:.20s;
 }
 
 .subMenu .inner {
@@ -204,20 +218,65 @@ p {
 
 /*----- Section 5 -----*/
 .s5 {
-  min-height: 500px;
+  min-height: 450px;
   background: #293b4d;
   color: white;
 }
 
 .socialbtn {
   font-family: 'EntypoRegular', 'EntypoSocialRegular';
+  color: white;
+  text-decoration: none;
   text-align: center;
-  font-size: 9em;
+  font-size: 9.5em;
   float: left;
-  margin: 30px;
+  width: auto;
+  padding: 0 35px;
+
+  -o-transition:.20s;
+  -ms-transition:.20s;
+  -moz-transition:.20s;
+  -webkit-transition:.20s;
+  transition:.20s;
 }
 
+.email:hover {
+  color: #16a61e;
+  background-color: white;
+}
+.fb:hover {
+  color: rgb(59, 89, 182);
+  background-color: white;
+}
+
+.li:hover {
+  color: rgb(0, 123, 182);
+  background-color: white;
+}
+
+.tw:hover {
+  color: rgb(0, 172, 237);
+  background-color: white;
+}
+
+.git:hover {
+  color: #171515;
+  background-color: white;
+}
+
+
 .socialbtnposition{
-  width: 70%;
-  text-align: center;
+  position: absolute;
+  left: 50%;
+  width: 840px;
+  margin-left: -420px;
+  border-top: 1px dotted;
+  border-bottom: 1px dotted;
+}
+
+/*----- Section 6 -----*/
+.s6 {
+  min-height: 100px;
+  background: green;
+  color: white;
 }
