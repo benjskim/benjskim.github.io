@@ -189,6 +189,12 @@ p {
   text-decoration: none;
 }
 
+.arrow-down {
+  width: 0; height: 0; 
+  border:20px solid transparent;
+  border-top-color:#6e87a1;
+  margin-left: 48.3%;
+}
 
 /* SECTIONS */
 .sTop {
@@ -203,53 +209,67 @@ p {
 /*----- About -----*/
 .s1 {
   min-height: 500px;
-  background: #F4A460;
+  background: #FFA07A;
 /*  border-top: 1px solid #ccc;*/
+}
+.arrow1 {
+  border-top-color: #FFA07A;
 }
 
 .inner img[class="biopic"] {
   position: absolute;
-  width: 200px;
-  margin-left: 125px;
-  border-radius: 50%;
-  top: 150px;
+  width: 180px;
+  margin-left: 50px;
+  top: 155px;
   border: 5px solid white;
+  border-radius: 50%;
 }
 
 .s1 ul {
-  font-size: 1.25rem;
-  text-align: left;
-  margin:50px 50px 0px 400px;
+  text-align: left;  
   list-style: none;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin: 25px 50px 0px 300px;
   padding: 50px 50px;
-
 }
 
 /*----- Blog -----*/
 .s2 {
   min-height: 500px;
 /*  background: rgb(71,141,71);*/
-  background: #EE8262;
+  background: #CD7054;
 }
-
+.arrow2 {
+  /*border-top-color:rgb(71,141,71);*/
+  border-top-color:#CD7054;
+}
 
 .s3 {
   min-height: 500px;
   background: #B0C4DE;
 }
-
+.arrow3 {
+  border-top-color:#B0C4DE;
+}
 
 .s4 {
   min-height: 500px;
   background: #6e87a1;
 }
+.arrow4 {
+  border-top-color:#6e87a1;
+}
 
 /*----- Section 5 -----*/
 .s5 {
-  min-height: 450px;
+  height: 450px;
   background: #293b4d;
-
 }
+.arrow5 {
+  border-top-color:#293b4d;
+}
+
 
 .socialbtn {
   font-family: 'EntypoRegular', 'EntypoSocialRegular';
@@ -310,29 +330,3 @@ p {
 }
 
 /*----- Arrows -----*/
-.arrow-down {
-  width: 0; height: 0; 
-  border:20px solid transparent;
-  border-top-color:#6e87a1;
-  margin-left: 48.3%;
-}
-
-.arrow1 {
-  border-top-color: #F4A460;
-}
-.arrow2 {
-  /*border-top-color:rgb(71,141,71);*/
-  border-top-color:#EE8262;
-}
-.arrow3 {
-  border-top-color:#B0C4DE;
-}
-
-.arrow4 {
-  border-top-color:#6e87a1;
-}
-
-.arrow5 {
-  border-top-color:#293b4d;
-}
-
