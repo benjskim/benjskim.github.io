@@ -192,9 +192,8 @@ p {
 
 /* SECTIONS */
 .sTop {
-  min-height: 500px;
-  background:#e5e5e5;
-  color:#3d3d3d;
+  height: 500px;
+  background-color: rgba(205, 198, 115, .3);
   background: url(../images/skyline.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -204,7 +203,7 @@ p {
 /*----- About -----*/
 .s1 {
   min-height: 500px;
-  background: gray;
+  background: #F4A460;
 /*  border-top: 1px solid #ccc;*/
 }
 
@@ -229,14 +228,14 @@ p {
 /*----- Blog -----*/
 .s2 {
   min-height: 500px;
-  background: rgb(71,141,71);
-
+/*  background: rgb(71,141,71);*/
+  background: #EE8262;
 }
 
 
 .s3 {
   min-height: 500px;
-  background: #504f4f;
+  background: #B0C4DE;
 }
 
 
@@ -307,7 +306,7 @@ p {
   background: #3f3f3f;
   height: 142px;
   margin-bottom: 0;
-  border-top: 1px solid #ccc;
+  border-top: 4px solid #ccc;
 }
 
 /*----- Arrows -----*/
@@ -319,13 +318,14 @@ p {
 }
 
 .arrow1 {
-  border-top-color: gray;
+  border-top-color: #F4A460;
 }
 .arrow2 {
-  border-top-color:rgb(71,141,71);
+  /*border-top-color:rgb(71,141,71);*/
+  border-top-color:#EE8262;
 }
 .arrow3 {
-  border-top-color:#504f4f;
+  border-top-color:#B0C4DE;
 }
 
 .arrow4 {
