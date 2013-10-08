@@ -100,7 +100,7 @@ p {
 }
 
 .section {
-  width: 85%;
+  width: 80%;
   /*max-width: 1140px;*/
   min-width: 960px;
   z-index: 10;
@@ -115,7 +115,7 @@ p {
 
 .inner {
   width: auto;
-  margin: 0 7.5% 0 7.5%;
+  margin: 0 10% 0 10%;
   position: relative;
   min-height: 50px;
   font-size: 18px;
@@ -127,7 +127,7 @@ p {
   height: 50px;
   z-index: 1000;
   width: 100%;
-  min-width: 1000px;
+  min-width: 1080px;
   background: rgba(250,250,250,1);
   text-transform: uppercase;
   letter-spacing: .3em;
@@ -305,11 +305,12 @@ p {
 /*----- Section 6 -----*/
 .s6 {
   background: #3f3f3f;
-  min-height: 142px;
+  height: 142px;
   margin-bottom: 0;
   border-top: 1px solid #ccc;
 }
 
+/*----- Arrows -----*/
 .arrow-down {
   width: 0; height: 0; 
   border:20px solid transparent;
