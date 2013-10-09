@@ -46,7 +46,6 @@ h1, h2, h3 {
   margin:0 0 15px 0;
 }
 
-
 h1 {
   font-size: 3em;
   line-height: 100%;
@@ -91,7 +90,7 @@ h3 {
   min-width: 960px;
   z-index: 10;
   position: relative;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 
@@ -189,7 +188,7 @@ h3 {
   width: 0; height: 0; 
   border:20px solid transparent;
   border-top-color:#6e87a1;
-  margin-left: 48.3%;
+  margin-left: 48%;
 }
 
 /* SECTIONS */
@@ -212,22 +211,19 @@ h3 {
   border-top-color: #FFA07A;
 }
 
-.inner img[class="biopic"] {
-  position: absolute;
-  width: 180px;
-  margin-left: 50px;
-  top: 155px;
-  border: 5px solid white;
+.s1 img[class="biopic"] {
+  width: 20%;
+  margin-left: 39.9%;
+  border: 3px solid white;
   border-radius: 50%;
 }
 
-.s1 ul {
-  text-align: left;  
-  list-style: none;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-  margin: 25px 50px 0px 300px;
-  padding: 50px 50px;
+.s1 p {
+  text-align: justify;  
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: .025em;
+  padding: 40px 100px 20px;
 }
 
 /*----- Blog -----*/
@@ -322,7 +318,7 @@ h3 {
   background: #3f3f3f;
   min-height: 120px;
   margin-bottom: 0;
-  border-top: 4px solid #ccc;
+  border-top: 3px solid #ccc;
   background-image: url('../images/debut_dark.png');
 }
 
@@ -333,7 +329,8 @@ h3 {
   letter-spacing: .09em;
   text-align: center;
   margin-bottom: -60px;
-
+  line-height: 1.25em;
+/*  margin-top: -20px;*/
 }
 
 /*----- Arrows -----*/
