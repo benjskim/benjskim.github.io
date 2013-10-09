@@ -6,4 +6,8 @@ $(function() {
   $('.flexslider').flexslider({
     animation: "slide"
   });
+
+  $(".moreabout").click(function(){
+    $(".moreabouttext").slideToggle();
+  });
 });
