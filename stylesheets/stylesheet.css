@@ -32,15 +32,17 @@
 body {
   font-family: "Open sans", Arial, Verdana, sans-serif;
   color: white;
+  font-weight: 300;
   font-size: 12px;
   background:#bfbfbf;
   background-image: url('../images/sos.png');
 }
 
 
-h1, h2, h3, p, ul {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+h1, h2, h3 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+  letter-spacing: .075em;
   margin:0 0 15px 0;
 }
 
@@ -59,7 +61,6 @@ h1.title {
   right: -5%;
 }
 
-
 h2 {
   font-size: 2.5em;
   text-align: center;
@@ -70,11 +71,6 @@ h3 {
   font-size: 1.75rem;
   line-height: 100%;
   text-align: center;
-}
-
-p {
-
-  margin: 0 0 15px 0;
 }
 
 .menuBtn {
@@ -324,9 +320,20 @@ p {
 /*----- Section 6 -----*/
 .s6 {
   background: #3f3f3f;
-  height: 142px;
+  min-height: 120px;
   margin-bottom: 0;
   border-top: 4px solid #ccc;
+  background-image: url('../images/debut_dark.png');
+}
+
+.footer {
+  font-family: "Helvetica Neue";
+  font-weight: 100;
+  font-size: 1rem;
+  letter-spacing: .09em;
+  text-align: center;
+  margin-bottom: -60px;
+
 }
 
 /*----- Arrows -----*/
