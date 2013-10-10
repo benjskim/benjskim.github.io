@@ -235,12 +235,10 @@ p {
   text-align: center;
   cursor: pointer;
   color: rgb(76,0,163);
-  text-decoration: underline;
 }
 
 .moreabouttext {
   display: none;
-
 }
 
 /*----- Blog -----*/
@@ -325,7 +323,7 @@ p {
   left: 50%;
   width: 850px;
   margin-left: -425px;
-  padding-left: 8px;
+  padding-left: 6.5px;
 /*  border-top: 1px solid;
   border-bottom: 1px solid;*/
 }
@@ -333,7 +331,7 @@ p {
 /*----- Section 6 -----*/
 .s6 {
   background: #3f3f3f;
-  min-height: 120px;
+  height: 140px;
   margin-bottom: 0;
   border-top: 3px solid #ccc;
   background-image: url('../images/debut_dark.png');
