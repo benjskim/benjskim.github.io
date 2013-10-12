@@ -252,6 +252,54 @@ p {
   border-top-color:#CD7054;
 }
 
+.blogcontainer {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+.blogcontainer b{
+  font-size: 1.1em;
+}
+
+.blogcontainer ul{
+  list-style: none;
+  text-align: left;
+}
+
+.blogcontainer li{
+  padding-top: 6px;
+ /* text-align: center;*/
+}
+
+.blogcontainer a{
+  color: white;
+  text-decoration: none;
+}
+
+.blogcontainer a:hover {
+  color: rgba(124,122,179,1);
+}
+
+.blogposts {
+  position: absolute;
+  float: left;
+  padding-left: 40px;
+  left: -50px;
+  width: 50%;
+
+}
+
+.guestposts {
+  position: absolute;
+  float: right;
+    left: 53%;
+  width: 435px;
+}
+
+
+
+
+
 .s3 {
   min-height: 500px;
   background: #B0C4DE;
