@@ -254,7 +254,7 @@ p {
 
 .blogcontainer {
   display: inline-block;
-  text-align: center;
+/*  text-align: center;*/
   margin: 10px;
 }
 .blogcontainer b{
