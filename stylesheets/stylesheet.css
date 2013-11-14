@@ -20,18 +20,21 @@
   font-style: normal;
 }
 
-* {margin: 0; padding: 0; outline: 0;}
+* {
+  margin: 0; 
+  padding: 0; 
+  outline: 0;}
 
 ::selection {
-  background: rgba(124,122,179,.8);
+  background: rgba(124,122,179,.25);
   }
 ::-moz-selection {
-  background: rgba(124,122,179,.8);
+  background: rgba(124,122,179,.25);
 }
 
 body {
   font-family: "Open sans", Arial, Verdana, sans-serif;
-  color: white;
+  color: #333;
   font-weight: 300;
   font-size: 12px;
   background:#bfbfbf;
@@ -39,7 +42,7 @@ body {
 }
 
 
-h1, h2, h3 {
+h1, h2, h3, p {
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 100;
   letter-spacing: .075em;
@@ -55,7 +58,7 @@ h1 {
 h1.title {
   position: absolute;
   font-size: 6em;
-  color: white;
+  color: #333;
   top: 440px;
   right: -5%;
 }
@@ -73,8 +76,8 @@ h3 {
 }
 
 p {
-  letter-spacing: .0075em;
-  font-size: 20px;
+  letter-spacing: .075em;
+  font-size: 1.25rem;
 }
 
 .menuBtn {
@@ -100,22 +103,17 @@ p {
 }
 
 .section {
-  width: 80%;
-  /*max-width: 1140px;*/
-  min-width: 960px;
+  width: 99%;
   z-index: 10;
   position: relative;
   margin: 0 auto;
   padding: 0 0 20px 0;
-/*  border-top: 1px solid #ccc;*/
-/*  border-left: 1px solid #404040;
-  border-right: 1px solid #404040;*/
 }
 
 
 .inner {
   width: auto;
-  margin: 0 10% 0 10%;
+  margin: 0 5% 0 5%;
   position: relative;
   min-height: 50px;
   font-size: 18px;
@@ -132,10 +130,6 @@ p {
   text-transform: uppercase;
   letter-spacing: .3em;
   border-bottom: 2px solid rgb(124,122,179);
-/*
-  -webkit-box-shadow: 0px 2px 3px #404040;
-  -moz-shadow: 0px 2px 3px #404040;
-  box-shadow: 0px 2px 3px #404040;*/
 }
 
 .subMenu .active {
@@ -198,7 +192,7 @@ p {
 
 /* SECTIONS */
 .sTop {
-  height: 500px;
+  height: 575px;
   background-color: rgba(205, 198, 115, .3);
   background: url(../images/skyline.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -208,23 +202,25 @@ p {
 
 /*----- About -----*/
 .s1 {
+  color: #555;
   min-height: 500px;
-  background: #FFA07A;
-/*  border-top: 1px solid #ccc;*/
+  background: #e7e7e7;
+  border-bottom: 1px solid #ddd
 }
 .arrow1 {
   border-top-color: #FFA07A;
 }
 
 .s1 img[class="biopic"] {
-  width: 18%;
-  margin-left: 41.5%;
-  border: 3px solid white;
+  width: 15%;
+  margin-left: 42.5%;
+  border: 2.5px solid white;
   border-radius: 50%;
   margin-bottom: 30px;
 }
 
 .s1 p {
+  margin: 0 5% 0 5%;
   text-align: justify;  
   line-height: 1.6rem;
   margin-bottom: 8px;
@@ -245,7 +241,8 @@ p {
 .s2 {
   min-height: 500px;
 /*  background: rgb(71,141,71);*/
-  background: #CD7054;
+  background: #fff;
+    border-bottom: 1px solid #ddd
 }
 .arrow2 {
   /*border-top-color:rgb(71,141,71);*/
@@ -257,7 +254,7 @@ p {
 /*  text-align: center;*/
   margin: 10px;
 }
-.blogcontainer b{
+.blogcontainer strong{
   font-size: 1.1em;
 }
 
@@ -286,13 +283,12 @@ p {
   padding-left: 40px;
   left: -50px;
   width: 50%;
-
 }
 
 .guestposts {
   position: absolute;
   float: right;
-    left: 53%;
+  left: 53%;
   width: 435px;
 }
 
@@ -302,7 +298,8 @@ p {
 
 .s3 {
   min-height: 500px;
-  background: #B0C4DE;
+  background: #e7e7e7;
+    border-bottom: 1px solid #ddd
 }
 .arrow3 {
   border-top-color:#B0C4DE;
@@ -310,7 +307,8 @@ p {
 
 .s4 {
   min-height: 500px;
-  background: #6e87a1;
+  background: #fff;
+    border-bottom: 1px solid #ddd
 }
 .arrow4 {
   border-top-color:#6e87a1;
@@ -319,7 +317,8 @@ p {
 /*----- Section 5 -----*/
 .s5 {
   height: 450px;
-  background: #293b4d;
+  background: #e7e7e7;
+    border-bottom: 1px solid #ddd
 }
 .arrow5 {
   border-top-color:#293b4d;
@@ -366,14 +365,17 @@ p {
   background-color: white;
 }
 
+.blog:hover {
+  color: #FE6600;
+  background-color: white;
+}
+
 .socialbtnposition{
   position: absolute;
   left: 50%;
-  width: 850px;
+  width: 875px;
   margin-left: -425px;
-  padding-left: 6.5px;
-/*  border-top: 1px solid;
-  border-bottom: 1px solid;*/
+/*  padding-left: 6.5px;*/
 }
 
 /*----- Section 6 -----*/
