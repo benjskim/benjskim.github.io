@@ -55,12 +55,12 @@ h1 {
   text-align: center;
 }
 
-h1.title {
-  position: absolute;
-  font-size: 6em;
-  color: #333;
-  top: 440px;
-  right: -5%;
+h1::before {
+  content: "\2014";
+}
+
+h1::after {
+  content: "\2014";
 }
 
 h2 {
@@ -95,7 +95,7 @@ p {
 
 .wrap {
   width: 100%;
-  min-width: 960px;
+  min-width: 1080px;
   z-index: 10;
   position: relative;
   margin: 0;
@@ -103,7 +103,8 @@ p {
 }
 
 .section {
-  width: 99%;
+  width: 100%;
+  min-width: 1080px;
   z-index: 10;
   position: relative;
   margin: 0 auto;
@@ -113,6 +114,7 @@ p {
 
 .inner {
   width: auto;
+
   margin: 0 5% 0 5%;
   position: relative;
   min-height: 50px;
@@ -193,6 +195,7 @@ p {
 /* SECTIONS */
 .sTop {
   height: 575px;
+  width: 100%;
   background-color: rgba(205, 198, 115, .3);
   background: url(../images/skyline.png) no-repeat center center fixed;
   -webkit-background-size: cover;
