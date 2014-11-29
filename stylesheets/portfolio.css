@@ -1,0 +1,124 @@
+.work-tile-container {
+  width: 97.5%;
+  height: 250px;
+  /*margin-bottom: 60px;*/
+  /*border: 1px solid;*/
+}
+
+.work-tile-img {
+  width: 200px;
+  height: 200px;
+  /*border: 1px solid;*/
+  border-radius: 3px;
+  float: left;
+}
+
+.work-tile-container a h2 {
+  color: orange;
+  text-decoration: none;
+
+  font-weight: 400;
+  letter-spacing: .015rem;
+  margin-bottom: 0;
+}
+
+.work-tile-container a {
+  text-decoration: none;
+}
+
+.work-tile-container h3 {
+  /*color: orange;*/
+  font-weight: 100;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.work-tile-container p {
+  margin-top: 15px;
+}
+
+.work-paragraph-line {
+  font-size: 1.25rem;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-indent: -10.50px;
+}
+
+
+.work-tile-text-upaji {
+  float: left;
+  position: relative;
+  /*border: 1px solid;*/
+  width: 65%;
+  margin-left: 20px;
+}
+
+.upaji-img {
+  background: url(../images/upaji-logo.png) no-repeat center center;
+  background-size: cover;
+  margin-left:25px;
+  /*margin-top: 25px;*/
+  width: 150px;
+  height: 150px;
+  text-align: center
+}
+
+.work-tile-new-project {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 3px;
+  float: right;
+  margin-top: 15px;
+
+  color: white;
+  background: rgb(125,125,125);
+
+  font-size: 3.35rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.work-tile-text-new-project {
+  float: left;
+  position: relative;
+  /*border: 1px solid;*/
+  width: 65%;
+  margin-right: 20px;
+}
+
+button {
+  color: white;
+  font-size: 1.025rem;
+  width: auto;
+  margin-left: 25px;
+  padding-right: 13px;
+  height: 50px;
+  border-radius: 3px;
+  font-weight: 100;
+  letter-spacing: .05rem;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.11), inset 1px 1px 0 rgba(255, 255, 255, 0.4);
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, .5);
+  background: -webkit-linear-gradient(top, #476ab4 0%, #36518a 100%);
+  border: 1px solid #36518a;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+button i {
+  font-size: 1.25rem !important;
+  margin-right: 8px;
+  margin-left: 8px;
+  padding: 0; 
+}
+
+button:hover {
+  background: #476ab4;
+}
+
+button:active {
+  background: #36518a;
+}

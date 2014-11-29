@@ -93,6 +93,7 @@ nav h1 {
   text-align: center;
   line-height: 1;
   margin: 0;
+
 }
 
 nav h3 {
@@ -139,22 +140,32 @@ nav h3 {
   line-height: 0;
 }
 
+.fa-angle-double-right {
+  color: #ffa500;
+  margin-right: 10px;
+}
+
+
 .main-container h1 {
   font-size: 3.25rem;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: -.1rem;
-  line-height: 1;
-  /*text-shadow: 1px 1px 1px rgba(150,150,150,.1);*/
+  color: rgb(40,40,40);
 }
 
 .main-container h2 {
   font-size: 2.25rem;
   letter-spacing: 0rem;
-  line-height: 1;
-  font-weight: 100;
-  /*text-shadow: 1px 1px 0px rgba(150,150,150,.125);*/
+  margin: 0;  
+  font-weight: 300;
+  color: rgb(40,40,40);
 }
 
+.main-container p {
+  font-size: 1.25rem;
+  letter-spacing: .025rem;
+  color: rgb(25,25,25);
+}
 
 /*--------------------------- 
         Social Icons

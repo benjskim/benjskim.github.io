@@ -1,7 +1,11 @@
+.main-container > h2 {
+  margin-left: 35px;
+  text-indent: -15.5px;
+}
 
 .btn-container {
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 30px;
+  margin-bottom: 50px;
   width: 100%;
   text-align: center;
 }
@@ -15,7 +19,6 @@
   width: 300px;
   height: 100px;
   background-color: gray;
-  border: 1px solid black;
   box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.11), inset 1px 1px 0 rgba(255, 255, 255, 0.4);
   text-shadow: 0 -1px 1px rgba(0, 0, 0, .5);
 }
@@ -55,4 +58,5 @@
   color: rgb(50,50,50);
   font-size: 1.00rem;
   text-align: center;
+  padding-bottom: 20px;
 }
