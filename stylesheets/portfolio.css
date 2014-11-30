@@ -13,17 +13,23 @@
   float: left;
 }
 
-.work-tile-container a h2 {
+
+.work-tile-container h2 a {
   color: orange;
   text-decoration: none;
 
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: .015rem;
   margin-bottom: 0;
 }
 
-.work-tile-container a {
-  text-decoration: none;
+.work-tile-container h2 a:hover {
+  text-decoration: underline;
+  color: #ffae1a;
+}
+
+.work-tile-container h2 a:active {
+  color: #e69500;
 }
 
 .work-tile-container h3 {
@@ -99,7 +105,7 @@ button {
   border-radius: 3px;
   font-weight: 100;
   letter-spacing: .05rem;
-  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.11), inset 1px 1px 0 rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.11), inset 1px 1px 0 rgba(255, 255, 255, 0.4);
   text-shadow: 0 -1px 1px rgba(0, 0, 0, .5);
   background: -webkit-linear-gradient(top, #476ab4 0%, #36518a 100%);
   border: 1px solid #36518a;
