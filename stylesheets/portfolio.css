@@ -5,7 +5,7 @@
   /*border: 1px solid;*/
 }
 
-.work-tile-img {
+.work-tile-img-left {
   width: 200px;
   height: 200px;
   /*border: 1px solid;*/
@@ -13,23 +13,33 @@
   float: left;
 }
 
+.work-tile-img-right {
+  border-radius: 3px;
+  float: right;
+  width: 200px;
+  height: 200px;
+}
+
+.work-tile-text-right {
+  float: left;
+  position: relative;
+  /*border: 1px solid;*/
+  width: 65%;
+  margin-left: 20px;
+}
+
+.work-tile-text-left {
+  float: left;
+  position: relative;
+  /*border: 1px solid;*/
+  width: 65%;
+  margin-right: 20px;
+}
 
 .work-tile-container h2 a {
-  color: orange;
-  text-decoration: none;
-
   font-weight: 100;
   letter-spacing: .015rem;
   margin-bottom: 0;
-}
-
-.work-tile-container h2 a:hover {
-  text-decoration: underline;
-  color: #ffae1a;
-}
-
-.work-tile-container h2 a:active {
-  color: #e69500;
 }
 
 .work-tile-container h3 {
@@ -52,15 +62,6 @@
   text-indent: -10.50px;
 }
 
-
-.work-tile-text-upaji {
-  float: left;
-  position: relative;
-  /*border: 1px solid;*/
-  width: 65%;
-  margin-left: 20px;
-}
-
 .upaji-img {
   background: url(../images/upaji-logo.png) no-repeat center center;
   background-size: cover;
@@ -71,28 +72,14 @@
   text-align: center
 }
 
-.work-tile-new-project {
-  width: 200px;
-  height: 200px;
+.new-project-img {
   border: 1px solid black;
-  border-radius: 3px;
-  float: right;
   margin-top: 15px;
-
   color: white;
   background: rgb(125,125,125);
-
   font-size: 3.35rem;
   font-weight: 700;
   text-align: center;
-}
-
-.work-tile-text-new-project {
-  float: left;
-  position: relative;
-  /*border: 1px solid;*/
-  width: 65%;
-  margin-right: 20px;
 }
 
 button {

@@ -87,8 +87,6 @@ nav ul a {
   height: 140px;
   margin-bottom: 40px;
   box-shadow   : 0 2px 2px rgba(0, 0, 0, 0.75), inset 1px 2px 0 rgba(255, 255, 255, 0.3);
-
-  
 }
 
 nav h1 {
@@ -104,6 +102,19 @@ nav h3 {
   font-weight: 100;
 }
 
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ffae1a;
+}
+
+a:active {
+  color: #e69500;
+}
 
 /*--------------------------- 
         Main Area
