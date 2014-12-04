@@ -1,4 +1,4 @@
 benjskim.github.io
 ==================
 
-Professional Portfolio of Ben Kim
+Portfolio of Ben Kim

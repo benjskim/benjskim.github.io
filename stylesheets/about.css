@@ -1,0 +1,112 @@
+.main-container {
+
+}
+
+.about-bg-img {
+  border: 2px solid #36518a;
+  border-radius: 3px;
+  width: 96.5%;
+  margin-left: 20px;
+  height: 425px;
+  margin: 20px 0;
+
+  background: url(../images/about-img.png) no-repeat center center;
+  background-size: cover;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.11), inset 1px 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.about-bg-container {
+  width: 96.5%;
+  text-align: center;
+  margin-top: -15px;
+  color: rgb(90,90,90);
+  font-style: italic;
+}
+
+.fa-angle-double-right {
+  margin-left: 4px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  padding-top: 15px;
+}
+
+p {
+  margin-left: 37.5px;
+}
+
+.bookcontainer {
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 0;
+  padding-bottom: 100px;
+}
+
+.book {
+  width: 120px;
+  height: 160px;
+  margin: 5px;
+  display: inline-block;
+
+  border: 1px solid rgba(0,0,0,.6);
+  border-bottom: 2px solid rgba(0,0,0,.9);
+  border-right: 2px solid rgba(0,0,0,.9);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .6);
+}
+
+.habit {
+  background: url(../images/habit.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.success {
+  background: url(../images/success.jpg) no-repeat center center;
+  background-size: cover;}
+
+.flowers {
+  background: url(../images/flowers.jpg) no-repeat center center;
+  background-size: cover;}
+
+.enders {
+  background: url(../images/enders.jpg) no-repeat center center;
+  background-size: cover;}
+
+.sogood {
+  background: url(../images/sogood.jpg) no-repeat center center;
+  background-size: cover;}
+
+.fourhour {
+  background: url(../images/fourhour.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+
+.dmmt {
+  background: url(../images/dmmt.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.little {
+  background: url(../images/little.png) no-repeat center center;
+  background-size: cover;}
+
+.defining {
+  background: url(../images/defining.jpg) no-repeat center center;
+  background-size: cover;}
+
+.hitch {
+  background: url(../images/hitch.jpg) no-repeat center center;
+  background-size: cover;}
+
+.willpower {
+  background: url(../images/willpower.jpg) no-repeat center center;
+  background-size: cover;}
+
+.nosense {
+  background: url(../images/nosense.png) no-repeat center center;
+  background-size: cover;
+}
