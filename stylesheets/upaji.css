@@ -3,11 +3,11 @@
 }
 
 .upaji-bg-img {
-  border-radius: 3px;
-  border: 1px solid;
-  height: 400px;
-  margin-left: 20px;
-  margin: 20px 0;
+  background: url() no-repeat center center;
+    background-size: cover;
+  border: 2px solid #36518a;
+  height: 425px;
+  margin: 20px 20px 20px 0px;
   width: 96.5%;
 }
 

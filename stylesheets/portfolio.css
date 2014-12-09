@@ -4,7 +4,7 @@
 .work-tile-container {
   height: 250px;
   margin-top: 20px;
-  padding-bottom: 80px;
+  /*padding-bottom: 80px;*/
   width: 97.5%;
 }
 
@@ -39,7 +39,7 @@
 .work-tile-text-full {
   margin-right: 20px;
   min-width: 400px;
-  padding-bottom: 100px;
+  padding-bottom: 125px;
   position: relative;
   text-align: center;
   width: 100%;
@@ -54,16 +54,16 @@
 .work-tile-container h3 {
   font-style: italic;
   font-weight: 100;
-  margin: 5px 0px 0px 2px;
+  margin: 5px 0px -10px 2px;
 }
 
 .work-tile-container p {
-  margin-top: 0px;
+  margin-bottom: -10px;
 }
 
 .work-paragraph-line {
   font-size: 1.25rem;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   margin-left: 25px;
   margin-top: 0;
   text-indent: -10.50px;
@@ -71,7 +71,7 @@
 
 .upaji-img {
   background: url(../images/upaji-logo.png) no-repeat center center;
-    background-size: cover;
+  background-size: cover;
   height: 150px;
   margin-left:25px;
   text-align: center;
