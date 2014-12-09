@@ -1,4 +1,4 @@
 benjskim.github.io
 ==================
 
-Portfolio of Ben Kim
+UX Portfolio of Ben Kim 
