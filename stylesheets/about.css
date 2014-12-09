@@ -40,15 +40,18 @@ p {
 }
 
 .bookcontainer {
-  margin-top: 30px;
+  margin: 30px 25px 0px 20px;
+  padding-bottom: 100px;
   text-align: center;
   margin-left: 0;
-  padding-bottom: 100px;
+  
 }
 
 .book {
-  width: 120px;
-  height: 160px;
+  /*width: 120px;
+  height: 160px;*/
+  width: 140px;
+  height: 180px;
   margin: 5px;
   display: inline-block;
 
@@ -94,8 +97,8 @@ p {
   background: url(../images/little.png) no-repeat center center;
   background-size: cover;}
 
-.defining {
-  background: url(../images/defining.jpg) no-repeat center center;
+.obstacle {
+  background: url(../images/obstacle.png) no-repeat center center;
   background-size: cover;}
 
 .hitch {

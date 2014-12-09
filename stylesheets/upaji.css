@@ -43,13 +43,6 @@ button i {
   padding: 0; 
 }
 
-.github-btn {
-  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.11), inset 1px 1px 0 rgba(255, 255, 255, 0.4);
-  text-shadow: 0 -1px 1px rgba(0, 0, 0, .5);
-  background: -webkit-linear-gradient(top, #476ab4 0%, #36518a 100%);
-  border: 1px solid #36518a;
-}
-
 .prototype-btn {
   box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.11), inset 1px 1px 0 rgba(255, 255, 255, 0.4);
   text-shadow: 0 -1px 1px rgba(0, 0, 0, .5);
@@ -57,8 +50,15 @@ button i {
   border: 1px solid #36518a;
 }
 
+.github-btn {
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.11), inset 1px 1px 0 rgba(255, 255, 255, 0.4);
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, .5);
+  background: -webkit-linear-gradient(top, #df864a 0%, #d16a25 100%);
+  border: 1px solid #d16a25;
+}
+
 .github-btn:hover {
-  background: #476ab4;
+  background: #df864a;
 }
 
 .prototype-btn:hover {
@@ -66,7 +66,7 @@ button i {
 }
 
 .github-btn:active {
-  background: #36518a;
+  background: #d16a25;
 }
 
 .prototype-btn:active {
