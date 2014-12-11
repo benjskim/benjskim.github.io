@@ -23,15 +23,15 @@
 <body>
 
   <nav>
-    <a href="index.html"><div class='headpic'></div></a>
+    <a href="index"><div class='headpic'></div></a>
     <h1>Ben Kim</h1>
     <h3>User Experience</h3>
     <ul>
-      <a href="index.html"><li class="first-child"><i class="fa fa-home"></i>Home</li></a>
-      <a href="portfolio.html"><li class="active"><i class="fa fa-pencil"></i>Portfolio</li></a>
+      <a href="index"><li class="first-child"><i class="fa fa-home"></i>Home</li></a>
+      <a href="portfolio"><li class="active"><i class="fa fa-pencil"></i>Portfolio</li></a>
       <!-- <a href="#"><li><i class="fa fa-pencil"></i>Blog</li></a> -->
-      <a href="about.html"><li><i class="fa fa-user"></i>About</li></a>
-      <!-- <a href="contact.html"><li><i class="fa fa-comment"></i>Contact</li></a> -->
+      <a href="about"><li><i class="fa fa-user"></i>About</li></a>
+      <!-- <a href="contact"><li><i class="fa fa-comment"></i>Contact</li></a> -->
     </ul>
 
     <div class="socialicons">
@@ -46,16 +46,16 @@
     <div class="main-container">
       <h1>My Portfolio<span class="period-emphasis">.</span></h1>
       <div class="footcrumb">
-        <a href="index.html"><i class="fa fa-arrow-circle-o-left"></i> Back to Home</a>
+        <a href="index"><i class="fa fa-arrow-circle-o-left"></i> Back to Home</a>
       </div>
       <div class="work-tile-container">  
         <div class="work-tile-img-left">
-          <a href="upaji.html"><div class="upaji-img"></div></a>
+          <a href="upaji"><div class="upaji-img"></div></a>
         </div>
 
         <div class="work-tile-text-right">
-          <h2><a href="upaji.html">Upaji</a></h2>
-          <h3>UX Design Internship</h3>
+          <h2><a href="upaji">Upaji</a></h2>
+          <h3>UX Design // Internship</h3>
           <p>
             <div class="work-paragraph-line">
               <i class="fa fa-angle-double-right"></i>Redesigned the home page into a responsive landing page with an HTML/CSS prototype
@@ -70,7 +70,7 @@
             </div> 
           </p>
 
-          <a href="upaji.html"><button><i class="fa fa-folder-open"></i>See Full Details</button></a>
+          <a href="upaji"><button><i class="fa fa-folder-open"></i>See Full Details</button></a>
         </div>
 
       </div>

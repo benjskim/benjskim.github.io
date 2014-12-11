@@ -119,3 +119,15 @@ button:hover {
 button:active {
   background: #36518a;
 }
+
+.inactive {
+  background: gray;
+}
+
+.inactive:hover {
+  background: gray;
+}
+
+.inactive:active {
+  background: gray;
+}

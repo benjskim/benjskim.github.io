@@ -23,15 +23,15 @@
 <body>
 
   <nav>
-    <a href="index.html"><div class='headpic'></div></a>
+    <a href="index"><div class='headpic'></div></a>
     <h1>Ben Kim</h1>
     <h3>User Experience</h3>
     <ul>
-      <a href="index.html"><li class="first-child"><i class="fa fa-home"></i>Home</li></a>
-      <a href="portfolio.html"><li class="active"><i class="fa fa-pencil"></i>Portfolio</li></a>
+      <a href="index"><li class="first-child"><i class="fa fa-home"></i>Home</li></a>
+      <a href="portfolio"><li class="active"><i class="fa fa-pencil"></i>Portfolio</li></a>
       <!-- <a href="#"><li><i class="fa fa-pencil"></i>Blog</li></a> -->
-      <a href="about.html"><li><i class="fa fa-user"></i>About</li></a>
-      <!-- <a href="contact.html"><li><i class="fa fa-comment"></i>Contact</li></a> -->
+      <a href="about"><li><i class="fa fa-user"></i>About</li></a>
+      <!-- <a href="contact"><li><i class="fa fa-comment"></i>Contact</li></a> -->
     </ul>
 
     <div class="socialicons">
@@ -46,36 +46,34 @@
     <div class="main-container">
       <h1 id="#upaji">Upaji<span class="period-emphasis">.</span></h1>
       <div class="footcrumb">
-        <a href="portfolio.html"><i class="fa fa-arrow-circle-o-left"></i> Back to My Portfolio</a>
+        <a href="portfolio"><i class="fa fa-arrow-circle-o-left"></i> Back to My Portfolio</a>
       </div>
-      <div class="upaji-bg-img big-img"> Upaji Img</div>
+      <div class="upaji-bg-img big-img"></div>
       <div class="bg-img-btn-container">
         <button class="prototype-btn"><i class='fa fa-eye'></i>View Prototype</button>
         <a href="http://github.com/benjskim/Upaji"><button class="github-btn"><i class="fa fa-github"></i>View on Github</button></a>
       </div>
    
       <div class="detail-container">
-      <h2 id="overview"><i class="fa fa-angle-double-right"></i>Introduction</h2>
+      <h2 id="overview"><i class="fa fa-angle-double-right"></i>Overview</h2>
         <p>
-          Lorem ipsum dolor sit amet, nam eu velit delicata. Ei qui paulo commune, vix eripuit nominavi splendide in. Quod oratio conclusionemque in nec. Mea ei causae corpora epicuri, at quo noster admodum molestiae.
-        </p>
-      <h2 id="introduction"><i class="fa fa-angle-double-right"></i>Product Overview</h2>
-        <p>
-          Lorem ipsum dolor sit amet, nam eu velit delicata. Ei qui paulo commune, vix eripuit nominavi splendide in. Quod oratio conclusionemque in nec. Mea ei causae corpora epicuri, at quo noster admodum molestiae.
+          Upaji is/was a social dining web application connecting  cooks with potential guests looking to experience an authentic dining experience. I was hired as their UX Design Intern in the summer of 2014 with my tasks ranging from redesigning their home page to critiquing user flows. 
           <br><br>
-          Nec adhuc erroribus constituto ad, platonem perpetua duo ea, tota consul facilis id nam. Te mutat iisque per, aperiri ceteros id eam. Ex vis graeco minimum scripserit. Sea copiosae lucilius dissentias te, brute temporibus ad vel.
+          However, because I was the only UX person in the US team (while the rest of the tech team resided in India/Pakistan), progress was often impeded by communication hardships and vision differences with the Product Manager, a learning experience I will address in the "Other Challenges" section. Because the startup eventually folded later that summer, my internship lasted only 10 weeks. Overall, working at Upaji was a fantastic experience; I have nothing but positive memories of my time there. 
         </p>
       <h2 id="Assessment"><i class="fa fa-angle-double-right"></i>UX Assessment</h2>
         <p>
+          
+
           Lorem ipsum dolor sit amet, nam eu velit delicata. Ei qui paulo commune, vix eripuit nominavi splendide in. Quod oratio conclusionemque in nec. Mea ei causae corpora epicuri, at quo noster admodum molestiae.
           <br><br>
           Nec adhuc erroribus constituto ad, platonem perpetua duo ea, tota consul facilis id nam. Te mutat iisque per, aperiri ceteros id eam. Ex vis graeco minimum scripserit. Sea copiosae lucilius dissentias te, brute temporibus ad vel.
         </p>
-      <h2 id="problems"><i class="fa fa-angle-double-right"></i>Problems</h2>
+      <h2 id="problems"><i class="fa fa-angle-double-right"></i>Usability Problems</h2>
         <p>
           Lorem ipsum dolor sit amet, nam eu velit delicata. Ei qui paulo commune, vix eripuit nominavi splendide in. Quod oratio conclusionemque in nec. Mea ei causae corpora epicuri, at quo noster admodum molestiae.
         </p>  
-      <h2 id="challenges"><i class="fa fa-angle-double-right"></i>Challenges</h2>
+      <h2 id="challenges"><i class="fa fa-angle-double-right"></i>Other Challenges</h2>
         <p>
           Lorem ipsum dolor sit amet, nam eu velit delicata. Ei qui paulo commune, vix eripuit nominavi splendide in. Quod oratio conclusionemque in nec. Mea ei causae corpora epicuri, at quo noster admodum molestiae.
         </p>
