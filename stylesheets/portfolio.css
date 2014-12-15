@@ -127,6 +127,9 @@ button:active {
 
 .inactive {
   background: gray;
+  border: gray;
+  cursor: auto;
+  outline: none;
 }
 
 .inactive:hover {

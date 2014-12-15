@@ -146,6 +146,7 @@ a:active {
   padding: 30px 10px 0px 275px;
   position: absolute;
   width: 55%;
+  min-width: 675px;
   z-index: 2;
 }
 
