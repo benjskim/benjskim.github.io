@@ -10,7 +10,6 @@ body {
 
 nav {
   background-color: #2b406e;
-  background-image: url(../images/dark-stripes.png), -webkit-linear-gradient(top, #36518a 0%, #2b406e 100%);
   border-right: 1px solid #2b406e;
   box-shadow: 2px -1px 4px rgba(0, 0, 0, .5);
   color: #fff;
@@ -20,6 +19,12 @@ nav {
   text-shadow  : 0 -1px 1px rgba(0, 0, 0, .5) !important;
   width: 240px;
   z-index: 9999;
+
+  background-image: url(../images/dark-stripes.png), linear-gradient(top, #36518a 0%, #2b406e 100%);
+    background-image: url(../images/dark-stripes.png), -webkit-linear-gradient(top, #36518a 0%, #2b406e 100%);
+    background-image: url(../images/dark-stripes.png), -moz-linear-gradient(top, #36518a 0%, #2b406e 100%);
+    background-image: url(../images/dark-stripes.png), -ms-linear-gradient(top, #36518a 0%, #2b406e 100%);
+    background-image: url(../images/dark-stripes.png), -o-linear-gradient(top, #36518a 0%, #2b406e 100%);
 }
 
 nav ul {
@@ -127,11 +132,8 @@ a:active {
   position: fixed;
   top: 0;
   width: 100%;
-  /*background-image: url(../images/brilliant.png), -webkit-linear-gradient(top, rgb(245,245,245) 75%, rgba(250,150,50,.1) 100%);*/
-  /*background-image: url(../images/project-paper.png), -webkit-linear-gradient(top, rgb(245,245,245) 75%, rgba(250,150,50,.1) 100%);*/
-  /*background-image: url(../images/subtle.png), -webkit-linear-gradient(top, rgb(245,245,245) 75%, rgba(250,150,50,.1) 100%);*/
-  /*background-image: url(../images/diagonal.png), -webkit-linear-gradient(top, rgb(245,245,245) 75%, rgba(250,150,50,.1) 100%);*/
-  background-image: url(../images/absurd.png), -webkit-linear-gradient(top, rgb(245,245,245) 70%, rgba(250,150,50,.09) 100%);
+
+  background-image: url(../images/absurd.png);
 }
 
 .main-container {

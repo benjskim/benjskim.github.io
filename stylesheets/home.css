@@ -26,9 +26,13 @@
 .btn-work {
   margin-right: 50px;
   margin-bottom: 10px;
-  /*background: -webkit-linear-gradient(top, #4aa3df 0%, #258cd1 100%);*/
-  background: -webkit-linear-gradient(top, #476ab4 0%, #36518a 100%);
   border: 1px solid #36518a;
+
+  background: linear-gradient(top, #476ab4 0%, #36518a 100%);
+    background: -webkit-linear-gradient(top, #476ab4 0%, #36518a 100%);
+    background: -moz-linear-gradient(top, #476ab4 0%, #36518a 100%);
+    background: -ms-linear-gradient(top, #476ab4 0%, #36518a 100%);
+    background: -o-linear-gradient(top, #476ab4 0%, #36518a 100%);
 }
 
 .btn-work:hover {
@@ -40,9 +44,12 @@
 }
 
 .btn-about {
-  /*background: -webkit-linear-gradient(top, #ffa500 0%, #d88c00 100%);*/
-  background: -webkit-linear-gradient(top, #df864a 0%, #d16a25 100%);
   border: 1px solid #d16a25;
+  background: linear-gradient(top, #df864a 0%, #d16a25 100%);
+    background: -webkit-linear-gradient(top, #df864a 0%, #d16a25 100%);
+    background: -moz-linear-gradient(top, #df864a 0%, #d16a25 100%);
+    background: -ms-linear-gradient(top, #df864a 0%, #d16a25 100%);
+    background: -o-linear-gradient(top, #df864a 0%, #d16a25 100%);
 }
 
 .btn-about:hover {
