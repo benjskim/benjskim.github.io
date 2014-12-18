@@ -1,10 +1,9 @@
 *{
-  
 }
 .work-tile-container {
   height: 250px;
   margin-top: 20px;
-  /*padding-bottom: 80px;*/
+  padding-bottom: 80px;
   width: 97.5%;
 }
 
@@ -139,3 +138,58 @@ button:active {
 .inactive:active {
   background: gray;
 }
+
+/*--------------------------- 
+        Responsive
+---------------------------*/
+
+
+@media only screen and (min-width : 730px) and (max-width : 950px) {
+  .work-tile-container {
+    height: 250px;
+    margin-top: 20px;
+    width: 97.5%;
+  }
+
+  .work-tile-img-left {
+    border-radius: 3px;
+    float: left;
+    height: 200px;
+    width: 25%;
+  }
+
+  .work-tile-img-right {
+    border-radius: 3px;
+    float: right;
+    height: 200px;
+    width: 25%;
+  }
+
+  .work-tile-text-right {
+    float: left;
+    margin-left: 5px;
+    position: relative;
+    width: 70%;
+  }
+
+  .work-tile-text-left {
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    width: 70%;
+  }
+
+  .work-tile-text-full {
+    margin-left: -15px;
+    min-width: 300px;
+    padding-bottom: 125px;
+    width: 100%;
+  }
+
+  .upaji-img {
+    height: 125px;
+    margin-left: 10px;
+    width: 125px;
+  }
+}
+

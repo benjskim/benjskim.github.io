@@ -232,3 +232,150 @@ a:active {
 .fa-envelope {
   padding   : 11.5px 12.5px 11px 13px;
 }
+
+
+/*--------------------------- 
+        Responsive
+---------------------------*/
+
+@media only screen and (min-width : 730px) and (max-width : 950px) {
+  nav {
+    width: 200px;
+  }
+
+  .headpic {
+    left: 29px;
+  }
+
+  .socialicons {
+    width: 150px;
+    margin-left: 20px;
+  }
+
+  .socialicons a i {
+    margin: 3px 2px;
+  }
+
+  .background {
+    height: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: url(../images/absurd.png);
+  }
+
+  .main-container {
+    border: 0;
+    height: 100%;
+    margin: 0;
+    max-width: 900px;
+    overflow-y: scroll;
+    padding: 30px 0px 0px 220px;
+    position: fixed;
+    width: 75%;
+    min-width: 475px;
+    z-index: 2;
+  }
+}
+
+@media only screen and (min-width : 100px) and (max-width : 729px) {
+  nav {
+    height: 50px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style: none;
+    display: inline-block;
+    /*margin: 30px 0px 50px 0px;*/
+    left: 0;
+    top: 10px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+  }
+
+  nav ul li {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 0px 0 rgba(255, 255, 255, .14);
+    color: #fff;
+    display: inline;
+    font-size: 1.225rem;
+
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 12.5px 20px 14px 15px;
+    width: 33%;
+  }
+
+  .first-child {
+    box-shadow: -1px 0 0 rgba(255, 255, 255, .14), 1px 0px 0 rgba(255,255,255, .14);
+  }
+
+  .headpic {
+    display: none;
+    height: 100%;
+    left: 10px;
+    top: 2.5px;
+    width: 7%;
+  }
+
+  nav h1 {
+    display: none;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+  }
+
+  nav h3 {
+    display: none;
+    font-weight: 100;
+    margin: 0;
+    text-align: center;
+  }
+
+  .fa-home, .fa-code, .fa-pencil, .fa-user, .fa-comment, .fa-th {
+    /*display: none;*/
+    font-size: 1.25rem;
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+  }
+
+  .socialicons {
+    display: none;
+  }
+
+  .background {
+    border: 0;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    min-width: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: url(../images/absurd.png);
+  }
+
+  .main-container {
+    border: 0;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    overflow-y: scroll;
+    padding: 30px 0px 30px 0px;
+    position: relative;
+    min-width: 0;
+    width: 100%;
+    z-index: 2;
+  }
+}

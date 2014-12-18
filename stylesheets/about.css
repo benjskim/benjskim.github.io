@@ -36,7 +36,7 @@ h2 {
 p {
   margin-left: 37.5px;
   margin-right: 30px;
-  
+
   margin-bottom: 150px;
 }
 
@@ -107,4 +107,22 @@ p {
 .nosense {
   background: url(../images/nosense.png) no-repeat center center;
   background-size: cover;
+}
+
+/*--------------------------- 
+        Responsive
+---------------------------*/
+
+@media only screen and (min-width : 730px) and (max-width : 950px) {
+  .about-bg-img {
+    background: url(../images/about-img.png) no-repeat center center;
+      background-size: cover;
+    border: 2px solid #36518a;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.11), inset 1px 1px 0 rgba(255, 255, 255, 0.4);
+    height: 400px;
+    margin-left: 20px;
+    margin: 20px 0;
+    width: 92%;
+  }
+
 }

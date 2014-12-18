@@ -105,3 +105,15 @@ h2 {
   width: .125%;
   z-index: 9999;
 }
+
+/*--------------------------- 
+        Responsive
+---------------------------*/
+
+@media only screen and (min-width : 730px) and (max-width : 950px) {
+  .upaji-bg-img {
+    width: 92.5%;
+    height: 300px;
+  }
+
+}
