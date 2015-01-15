@@ -38,7 +38,7 @@
 .work-tile-text-full {
   margin-right: 20px;
   min-width: 400px;
-  padding-bottom: 125px;
+  padding-bottom: 100px;
   position: relative;
   text-align: center;
   width: 100%;
@@ -73,6 +73,16 @@
   background-size: cover;
   height: 150px;
   margin-left:25px;
+  text-align: center;
+  width: 150px;
+}
+
+.kf-img {
+  background: url(../images/kf.png) no-repeat center center;
+  background-size: cover;
+  height: 100px;
+  margin-left:25px;
+  margin-top: 20px;
   text-align: center;
   width: 150px;
 }
@@ -137,6 +147,22 @@ button:active {
 
 .inactive:active {
   background: gray;
+}
+
+.btn-hire {
+  border-radius: 3px;
+  font-size: 1.5rem;
+  font-weight: 100;
+  letter-spacing: .05rem;
+  color: white;
+  width: 200px;
+  height: 75px;
+  background-color: gray;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.11), inset 1px 1px 0 rgba(255, 255, 255, 0.4);
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, .5);
 }
 
 /*--------------------------- 
