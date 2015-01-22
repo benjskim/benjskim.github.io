@@ -3,7 +3,8 @@
 .work-tile-container {
   height: 250px;
   margin-top: 20px;
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   width: 97.5%;
 }
 
@@ -38,10 +39,12 @@
 .work-tile-text-full {
   margin-right: 20px;
   min-width: 400px;
+  padding-top: 50px;
   padding-bottom: 100px;
   position: relative;
   text-align: center;
-  width: 100%;
+  border-top: 1px solid rgb(200,200,200);
+  width: 100%; 
 }
 
 .work-tile-container h2 a {

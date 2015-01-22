@@ -15,6 +15,7 @@ nav {
   color: #fff;
   height: 100%;
   letter-spacing: .05rem;
+  min-height: 1000px;
   position: fixed;
   text-shadow  : 0 -1px 1px rgba(0, 0, 0, .5) !important;
   width: 240px;
@@ -60,7 +61,7 @@ nav ul li:active {
   color: #ffa500;
 }
 
-.fa-home, .fa-code, .fa-pencil, .fa-user, .fa-comment, .fa-th {
+.fa-home, .fa-code, .fa-pencil, .fa-user, .fa-comment, .fa-th, .fa-file-text, .fa-list-alt, .fa-suitcase, .fa-file-pdf-o {
   font-size: 1.6rem;
   margin-right: 4px;
   text-align: center;
@@ -193,11 +194,11 @@ a:active {
 ---------------------------*/
 
 .socialicons{
-  margin-top: -10px;
+  margin-top: 90px;
   text-align: center;
 }
 
-.socialicons > a > i {
+.socialicons > a > i{
   background: #36518a;
   border-radius: 50%;
   border: 1px solid #2b406e;
@@ -231,6 +232,24 @@ a:active {
 
 .fa-envelope {
   padding   : 10.5px 11.5px 12px 13.5px;
+}
+
+/*--------------------------- 
+        Footer
+---------------------------*/
+
+.footer {
+  color:rgba(255,255,255,.85);
+  font-style: italic;
+  font-size: .85rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.hire-me{
+  height: 40px;
+  margin-top: 10px;
+  width: 125px;
 }
 
 
