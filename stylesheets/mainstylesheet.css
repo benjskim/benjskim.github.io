@@ -61,7 +61,7 @@ nav ul li:active {
   color: #ffa500;
 }
 
-.fa-home, .fa-code, .fa-pencil, .fa-user, .fa-comment, .fa-th, .fa-file-text, .fa-list-alt, .fa-suitcase, .fa-file-pdf-o {
+.fa-home, .fa-user, .fa-comment, .fa-list-alt, .fa-file-pdf-o {
   font-size: 1.6rem;
   margin-right: 4px;
   text-align: center;
@@ -244,12 +244,6 @@ a:active {
   font-size: .85rem;
   margin-top: 10px;
   text-align: center;
-}
-
-.hire-me{
-  height: 40px;
-  margin-top: 10px;
-  width: 125px;
 }
 
 
