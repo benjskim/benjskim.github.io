@@ -1,3 +1,5 @@
 $(document).ready(function() {
-    // $('.big-img').delay(300).fadeIn(200);
+  $('.overlay').click(function() {
+    $('.overlay').fadeOut();
+  }); 
 });
