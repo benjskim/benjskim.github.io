@@ -1,9 +1,27 @@
+.detail-container {
+  padding-bottom: 200px;
+}
+
+.detail-container p {
+  margin: 10px 15px 35px 36.5px;
+}
+
 iframe {
   width: 80%;
   margin-left: 10%;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
+.fa-angle-double-right {
+  margin-left: 4px;
+}
+
+.btn-container {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+}
 
 button {
   border-radius: 3px;

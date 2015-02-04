@@ -74,6 +74,16 @@
   text-indent: -10.50px;
 }
 
+.cf-img {
+  background: url(../images/cf.png) no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  margin-left:25px;
+  margin-top: -25px;
+  text-align: center;
+  width: 150px;
+}
+
 .upaji-img {
   background: url(../images/upaji-logo.png) no-repeat center center;
   background-size: cover;
