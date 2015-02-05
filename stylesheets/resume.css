@@ -3,6 +3,10 @@ iframe {
   overflow: hidden;
   padding: 0;
   position: absolute;
-  width: 72%;
-  height: 100%;
+  width: 74%;
+  height: 92.5%;
+}
+
+.main-container {
+  overflow: hidden;
 }

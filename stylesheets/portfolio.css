@@ -3,22 +3,38 @@
 }
 .portfolio-card {
   background: rgb(250,250,250);
-  border: 1px solid rgb(235,235,235);
+  border: 1px solid rgb(240,240,240);
   box-shadow:0 1px 2px rgba(0,0,0,.5);
-  border-radius: 3px;
+  border-left: 4px solid #476ab4;
+  border-radius: 3px ;
   height: 275px;
   min-height: 250px;
   margin-top: 20px;
-  padding: 25px 0 55px 0;
+  padding: 30px 0 55px 0;
   width: 97.5%;
+  opacity: 0.001; 
 }
 
-.work-tile-container{
-  height: auto;
-  min-height: 250px;
-  margin-top: 20px;
-  padding: 0;
-  width: 97.5%;
+.one {
+  transition: opacity 1s 1s;
+    -moz-transition: opacity 1s 1s;
+    -webkit-transition: opacity 1s 1s;
+    -o-transition: opacity 1s 1s;
+    -ms-transition: opacity 1s 1s;
+    -khtml-transition: opacity 1s 1s;
+}
+
+.two {
+  transition: opacity 2s 1s;
+    -moz-transition: opacity 2s 1s;
+    -webkit-transition: opacity 2s 1s;
+    -o-transition: opacity 2s 1s;
+    -ms-transition: opacity 2s 1s;
+    -khtml-transition: opacity 2s 1s;
+}
+
+.three {
+
 }
 
 .work-tile-img-left {
@@ -50,18 +66,7 @@
   width: 70%;
 }
 
-.work-tile-text-full {
-  height: auto;
-  margin-right: 20px;
-  /*margin-top: 25px;*/
-  min-width: 400px;
-  padding-top: 30px;
-  padding-bottom: 100px;
-  position: relative;
-  text-align: center;
-  border-top: 1px solid rgb(200,200,200);
-  width: 100%; 
-}
+
 
 .portfolio-card h2 a {
   font-weight: 100;
@@ -77,6 +82,17 @@
 
 .portfolio-card p {
   margin-bottom: -10px;
+}
+
+.portfolio-footer {
+  color: #476ab4;
+  border: 1px solid rgb(235,235,235);
+  border-radius: 3px;
+  box-shadow:0 1px 1px rgba(0,0,0,.1);
+  padding: 5px;
+  position: absolute;
+  right: 10px;
+  top: -22.5px;
 }
 
 .work-paragraph-line {
@@ -104,7 +120,7 @@
   margin-left:25px;
   margin-top: 20px;
   text-align: center;
-  width: 150px;
+  width: 175px;
 }
 
 .upaji-img {
@@ -152,6 +168,15 @@ button {
   background: #d16a25;
 }
 
+.work-tile-text-full {
+  height: auto;
+  width: 98%;
+  min-width: 400px;
+  margin: 50px 20px 0 0;
+  padding: 35px 0 100px 0;
+  text-align: center;
+  border-top: 1px solid rgb(200,200,200);
+}
 
 /*--------------------------- 
         Responsive
