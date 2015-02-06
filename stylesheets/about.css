@@ -9,9 +9,16 @@
   border-radius: 3px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.11), inset 1px 1px 0 rgba(255, 255, 255, 0.4);
   height: 425px;
-  margin-left: 20px;
   margin: 20px 0;
   width: 96.5%;
+
+  opacity: .001;
+  transition: opacity 1s .5s;
+    -moz-transition: opacity 1s .5s;
+    -webkit-transition: opacity 1s .5s;
+    -o-transition: opacity 1s .5s;
+    -ms-transition: opaity 1s .5s;
+    -khtml-transition: opacity 1s .5s;
 }
 
 .about-bg-container {

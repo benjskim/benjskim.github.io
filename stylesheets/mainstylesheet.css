@@ -92,6 +92,13 @@ nav ul a {
   position: relative;
   top: 25px;
   width: 140px;
+  opacity: .001;
+  transition: opacity .5s .05s;
+    -moz-transition: opacity .5s .05s;
+    -webkit-transition: opacity .5s .05s;
+    -o-transition: opacity .5s .05s;
+    -ms-transition: opaity .5s .05s;
+    -khtml-transition: opacity .5s .05s;
 }
 
 nav h1 {
