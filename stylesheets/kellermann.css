@@ -11,6 +11,15 @@
   margin-left: 4px;
 }
 
+.kf-bg-img {
+  background: url(../images/kf-2.png) no-repeat center center;
+  background-size: cover;
+  
+  height: 300px;
+  margin: 20px 20px 20px 150px;
+  width: 500px;
+}
+
 .btn-container {
   margin-top: 20px;
   margin-bottom: 30px;
