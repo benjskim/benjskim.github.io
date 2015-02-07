@@ -198,7 +198,7 @@ a:active {
 ---------------------------*/
 
 .socialicons{
-  margin-top: 90px;
+  margin-top: 105px;
   text-align: center;
 }
 
@@ -250,6 +250,18 @@ a:active {
   text-align: center;
 }
 
+.footer a {
+  color: rgba(255,255,255,.85);
+}
+
+.footer a:hover {
+  color: #ffae1a;
+  text-decoration: underline;
+}
+
+.footer a:active {
+  color: #e69500;
+}
 
 /*--------------------------- 
         Buttons

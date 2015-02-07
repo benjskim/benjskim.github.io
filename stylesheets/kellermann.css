@@ -6,7 +6,6 @@
   margin: 10px 15px 35px 36.5px;
 }
 
-
 .fa-angle-double-right {
   margin-left: 4px;
 }
@@ -82,6 +81,8 @@ button {
   margin-bottom: -5px;
 }
 
+
+/*------- Pictures -------*/
 .kf-old {
   background: url(../images/kf-old-web-half.png) no-repeat center center;
   background-size: cover;
@@ -109,6 +110,26 @@ button {
 
 .kf-wf-1 {
   background: url(../images/kf-wf-1-half.png) no-repeat center center;
+  background-size: cover;
+}
+
+.kf-mu-1 {
+  background: url(../images/kf-mu-1.png) no-repeat center center;
+  background-size: cover;
+}
+
+.kf-mu-2 {
+  background: url(../images/kf-mu-2.png) no-repeat center center;
+  background-size: cover;
+}
+
+.kf-mu-3 {
+  background: url(../images/kf-mu-3.png) no-repeat center center;
+  background-size: cover;
+}
+
+.kf-mu-4 {
+  background: url(../images/kf-mu-4.png) no-repeat center center;
   background-size: cover;
 }
 
