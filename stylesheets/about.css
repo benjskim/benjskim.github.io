@@ -13,12 +13,12 @@
   width: 96.5%;
 
   opacity: .001;
-  transition: opacity 1s .5s;
-    -moz-transition: opacity 1s .5s;
-    -webkit-transition: opacity 1s .5s;
-    -o-transition: opacity 1s .5s;
-    -ms-transition: opaity 1s .5s;
-    -khtml-transition: opacity 1s .5s;
+  transition: opacity 1s 1s;
+    -moz-transition: opacity 1s 1s;
+    -webkit-transition: opacity 1s 1s;
+    -o-transition: opacity 1s 1s;
+    -ms-transition: opaity 1s 1s;
+    -khtml-transition: opacity 1s 1s;
 }
 
 .about-bg-container {

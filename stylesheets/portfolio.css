@@ -4,7 +4,7 @@
 .portfolio-card {
   background: rgb(250,250,250);
   border: 1px solid rgb(240,240,240);
-  box-shadow:0 1px 2px rgba(0,0,0,.5), inset 1px 1px 0 rgba(255, 255, 255, 0.4);
+  box-shadow:0 1px 1px rgba(0,0,0,.5), inset 1px 1px 0 rgba(255, 255, 255, 0.4);
   border-left: 4px solid #476ab4;
   border-radius: 3px ;
   height: 275px;
@@ -116,7 +116,7 @@
 .kf-img {
   background: url(../images/kf-2.png) no-repeat center center;
   background-size: cover;
-  height: 96px;
+  height: 90px;
   margin-left:25px;
   margin-top: 20px;
   text-align: center;

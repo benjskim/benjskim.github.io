@@ -254,7 +254,7 @@ a:active {
   color: rgba(255,255,255,.85);
 }
 
-.footer a:hover {
+.footer a:hover, {
   color: #ffae1a;
   text-decoration: underline;
 }
